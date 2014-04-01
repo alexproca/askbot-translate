@@ -3090,8 +3090,8 @@ msgid ""
 "reach a resolution."
 msgstr ""
 "Ne pare rău dar, contul tău pare sa fie blocat și nu mai poți face postări noi "
-"până când until this issue is resolved. Please contact the forum administrator to "
-"reach a resolution."
+"până când această problemă este rezolvată. Te rugăm să contactezi administratorul pentru "
+"a găsi împreună o rezolvare."
 
 #: const/message_keys.py:52 models/__init__.py:1136
 msgid ""
@@ -3099,16 +3099,21 @@ msgid ""
 "until this issue is resolved. You can, however edit your existing posts. "
 "Please contact the forum administrator to reach a resolution."
 msgstr ""
+"Ne pare rău dar, contul tău pare sa fie blocat și nu mai poți face postări noi "
+"până când această problemă este rezolvată. Totuși poți să modifici postările tale existente"
+"Te rugăm să contactezi administratorul pentru a găsi împreună o rezolvare."
 
 #: deps/django_authopenid/backends.py:99
 msgid ""
 "Welcome! Please set email address (important!) in your profile and adjust "
 "screen name, if necessary."
 msgstr ""
+"Bine ai venit! Te rog adaugă o adresă de email (este important!) în profilul tau "
+"și ajustează numele de scenă daca este necesar."
 
 #: deps/django_authopenid/forms.py:112 deps/django_authopenid/views.py:206
 msgid "i-names are not supported"
-msgstr ""
+msgstr "i-names nu sunt suportate"
 
 #: deps/django_authopenid/forms.py:236
 #, python-format
@@ -3148,7 +3153,7 @@ msgstr "Parola veche nu este corectă. Introduceți o parolă corectă."
 
 #: deps/django_authopenid/forms.py:399
 msgid "Sorry, we don't have this email address in the database"
-msgstr "Această adreasă de e-mail nu se regăsește în baza noastră de date"
+msgstr "Ne pare rău dar, această adreasă de e-mail nu se regăsește în baza noastră de date"
 
 #: deps/django_authopenid/forms.py:438
 msgid "Your user name (<i>required</i>)"
@@ -3156,7 +3161,7 @@ msgstr "Numele de utilizator este (<i>obligatoriu</i>)"
 
 #: deps/django_authopenid/forms.py:455
 msgid "sorry, there is no such user name"
-msgstr ""
+msgstr "ne pare rău dar, nu există acest user name"
 
 #: deps/django_authopenid/urls.py:14 deps/django_authopenid/urls.py:20
 #: deps/django_authopenid/urls.py:23 setup_templates/settings.py:229
@@ -3165,11 +3170,11 @@ msgstr "autentificare/"
 
 #: deps/django_authopenid/urls.py:15
 msgid "widget/signin/"
-msgstr ""
+msgstr "widget/autentificare/"
 
 #: deps/django_authopenid/urls.py:18
 msgid "signout/"
-msgstr ""
+msgstr "deautentificare/"
 
 #: deps/django_authopenid/urls.py:23
 msgid "complete-oauth/"
@@ -3177,7 +3182,7 @@ msgstr ""
 
 #: deps/django_authopenid/urls.py:32
 msgid "register/"
-msgstr ""
+msgstr "inregistrare/"
 
 #: deps/django_authopenid/urls.py:34
 msgid "signup/"
@@ -3189,16 +3194,16 @@ msgstr "logout/"
 
 #: deps/django_authopenid/urls.py:43
 msgid "recover/"
-msgstr ""
+msgstr "recuperare/"
 
 #: deps/django_authopenid/urls.py:45
 msgid "verify-email/"
-msgstr ""
+msgstr "verificare-email/"
 
 #: deps/django_authopenid/util.py:379
 #, python-format
 msgid "%(site)s user name and password"
-msgstr ""
+msgstr "%(site)s nume utilizator și parolă"
 
 #: deps/django_authopenid/util.py:385 templates/authopenid/signin.html:117
 #: templates/authopenid/widget_signin.html:120
@@ -3219,7 +3224,7 @@ msgstr "nume utilizator AOL"
 
 #: deps/django_authopenid/util.py:502
 msgid "Sign in with LaunchPad"
-msgstr ""
+msgstr "Autentificare cu LaunchPad"
 
 #: deps/django_authopenid/util.py:509
 msgid "OpenID url"
@@ -3265,7 +3270,7 @@ msgstr "Modificați parola pentru %(provider)s"
 #: deps/django_authopenid/util.py:633
 #, python-format
 msgid "Click to see if your %(provider)s signin still works for %(site_name)s"
-msgstr "Efectuați clic pentru a verifica dacă autentificarea pentru %(provider)s încă funcționează pe %(site_name)s"
+msgstr "Clic pentru a verifica dacă autentificarea pentru %(provider)s încă funcționează pe %(site_name)s"
 
 #: deps/django_authopenid/util.py:642
 #, python-format
@@ -3290,13 +3295,15 @@ msgstr "Autentificați-vă cu contul de %(provider)s"
 #: deps/django_authopenid/views.py:213
 #, python-format
 msgid "OpenID %(openid_url)s is invalid"
-msgstr "Legătura OpenID %(openid_url)s este nevalidă"
+msgstr "Legătura OpenID %(openid_url)s nu este validă"
 
 #: deps/django_authopenid/views.py:391
 msgid ""
 "Sorry, there was some problem connecting to the login provider, please try "
 "again or use another login method"
 msgstr ""
+"Ne pare rau dar, au apărut niște probleme la conectarea cu furnizorul de autentificare "
+"te rugăm să încerci încă odată sau să încerci altă metodă de login"
 
 #: deps/django_authopenid/views.py:520
 msgid "Your new password saved"
@@ -3311,11 +3318,11 @@ msgstr "Din păcate există o problemă la conectarea la %(provider)s, reîncerc
 
 #: deps/django_authopenid/views.py:613
 msgid "The login password combination was not correct"
-msgstr ""
+msgstr "Combinația de login și parola nu a fost corectă"
 
 #: deps/django_authopenid/views.py:717
 msgid "Please click any of the icons below to sign in"
-msgstr "Pentru a vă autentifica efectuați clic pe oricare din iconițele de mai jos"
+msgstr "Clic pe oricare din iconițele de mai jos pentru a vă autentifica "
 
 #: deps/django_authopenid/views.py:719
 msgid "Account recovery email sent"
@@ -3351,6 +3358,8 @@ msgid ""
 "If you are trying to sign in to another account, please sign out first. "
 "Otherwise, please report the incident to the site administrator."
 msgstr ""
+"Dacă încerci să te autentifici cu un alt cont, te rog să te deautentifici întâi. "
+"Dacă nu te rog să raportezi incidentul administratorului. "
 
 #: deps/django_authopenid/views.py:914
 #, python-format
@@ -3362,6 +3371,8 @@ msgid ""
 "Sorry, registration failed. The token can be already used or has expired. "
 "Please try again"
 msgstr ""
+"Ne pare rău autentificarea a eșuat. Tockenul este deja utilizat sau a expirat. "
+"Te rugăm să mai încerci odată"
 
 #: deps/django_authopenid/views.py:1257
 #, python-format
@@ -3374,7 +3385,7 @@ msgstr "Verificați-vă e-mail-ul și mergeți la legătura inclusă."
 
 #: deps/group_messaging/models.py:356
 msgid "Re: "
-msgstr ""
+msgstr "Re: "
 
 #: deps/livesettings/models.py:107 deps/livesettings/models.py:153
 msgid "Site"
@@ -3382,7 +3393,7 @@ msgstr "Pagină web"
 
 #: deps/livesettings/values.py:72
 msgid "Main"
-msgstr ""
+msgstr "Principal"
 
 #: deps/livesettings/values.py:133
 msgid "Base Settings"
@@ -3416,29 +3427,35 @@ msgstr ""
 
 #: mail/__init__.py:185
 msgid "<li>Type title in the subject line</li>"
-msgstr ""
+msgstr "<li>Scrie titlul în linia de subiect</li>"
 
 #: mail/__init__.py:188
 msgid "<li>Type details of your question into the email body</li>"
-msgstr ""
+msgstr "<li>Scrie detaliile întrebării tale în corpul emailului.</li>"
 
 #: mail/__init__.py:191
 msgid ""
 "<li>The beginning of the subject line can contain tags,\n"
 "<em>enclosed in the square brackets</em> like so: [Tag1; Tag2]</li>"
 msgstr ""
+"<li>Începutul liniei de subiect poate conține etichete,\n"
+"<em>cuprinse între paranteze pătrate</em> de exemplu: [Etichetă1; Etichetă2]</li>"
 
 #: mail/__init__.py:195
 msgid ""
 "<li>In the beginning of the subject add at least one tag\n"
 "<em>enclosed in the brackets</em> like so: [Tag1; Tag2].</li>"
 msgstr ""
+"<li>La începutul liniei de subiect adaugă cel puțin o etichetă\n"
+"<em>cuprinsă între paranteze pătrate</em> de exemplu: [Etichetă1; Etichetă2].</li>"
 
 #: mail/__init__.py:199
 msgid ""
 "<p>Note that a tag may consist of more than one word, to separate\n"
 "the tags, use a semicolon or a comma, for example, [One tag; Other tag]</p>"
 msgstr ""
+"<p>Ține minte că o etichetă poate să conțină mai multe cuvinte, pentru a separa \n"
+"etichetele, utilizează punct și virgulă sau virgulă, de exemplu: [O etichetă; Altă etichetă]</p>"
 
 #: mail/__init__.py:214
 #, python-format
@@ -3446,6 +3463,8 @@ msgid ""
 "<p>Sorry, there was an error posting your question please contact the "
 "%(site)s administrator</p>"
 msgstr ""
+"<p>Ne pare rău dar a apărut o eroare în momentul salvării întrebării tale. Te rugăm să contactezi "
+"administratorul %(site)s</p>"
 
 #: mail/__init__.py:241
 #, python-format
@@ -3453,12 +3472,16 @@ msgid ""
 "<p>Sorry, in order to post questions on %(site)s by email, please <a "
 "href=\"%(url)s\">register first</a></p>"
 msgstr ""
+"<p>Ne pare rău, dar pentru a posta întrebări pe %(site)s prin email te rugăm să <a "
+"href=\"%(url)s\">te înregistrezi</a></p>"
 
 #: mail/__init__.py:249
 msgid ""
 "<p>Sorry, your question could not be posted due to insufficient privileges "
 "of your user account</p>"
 msgstr ""
+"<p>Ne pare rău, dar întrebarea ta nu poate fi postată pentru că nu există suficiente drepturi "
+"setate pentru contul tău</p>"
 
 #: mail/lamson_handlers.py:160
 msgid ""
@@ -3466,25 +3489,28 @@ msgid ""
 "you were replying from a different address from the one where you"
 "             received the notification."
 msgstr ""
+"Ai răspuns unei adrese de email necunoscută pentru sistem sau "
+"ai răspuns de pe o adresă diferită de cea pe care ai primit "
+"notificarea."
 
 #: mail/lamson_handlers.py:251
 #, python-format
 msgid "Re: Welcome to %(site_name)s"
-msgstr ""
+msgstr "Re: Bine ai venit pe %(site_name)s"
 
 #: mail/lamson_handlers.py:258
 msgid "Please reply to the welcome email without editing it"
-msgstr ""
+msgstr "Te rugăm să răspunzi la mesajul de Bun venit fără să îl modifici"
 
 #: mail/lamson_handlers.py:318
 #, python-format
 msgid "Re: %s"
-msgstr ""
+msgstr "Re: %s"
 
 #: management/commands/send_accept_answer_reminders.py:61
 #, python-format
 msgid "Accept the best answer for %(question_count)d of your questions"
-msgstr ""
+msgstr "Acceptă cel mai bun răspuns pentru %(question_count)d din întrebările tale"
 
 #: management/commands/send_accept_answer_reminders.py:66
 msgid "Please accept the best answer for this question:"
@@ -3510,22 +3536,22 @@ msgstr "întrebare nouă"
 #, python-format
 msgid "%(question_count)d unanswered question about %(topics)s"
 msgid_plural "%(question_count)d unanswered questions about %(topics)s"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(question_count)d întrebare care nu are încă un răspuns despre %(topics)s"
+msgstr[1] "%(question_count)d întrebări care nu au încă un răspuns despre %(topics)s"
+msgstr[2] "%(question_count)d de întrebări care nu au încă un răspuns despre %(topics)s"
 
 #: middleware/forum_mode.py:63
 #, python-format
 msgid "Please log in to use %s"
-msgstr ""
+msgstr "Te rugăm sa te autentifici pentru a utiliza %s"
 
 #: models/__init__.py:569 models/__init__.py:1388 views/writers.py:226
 msgid "Sorry, but you have only read access"
-msgstr ""
+msgstr "Ne pare rău dar ai doar acces pentru citire"
 
 #: models/__init__.py:573
 msgid "Sorry, this operation is not allowed"
-msgstr ""
+msgstr "Ne pare rău, dar această operație nu este permisă"
 
 #: models/__init__.py:623
 msgid ""
@@ -3551,6 +3577,7 @@ msgstr ">%(points)s puncte sunt necesare pt a acepte sau neaccepta  propriul ră
 msgid ""
 "Sorry, you will be able to accept this answer only after %(will_be_able_at)s"
 msgstr ""
+"Ne pare rău, dar vei putea să accepți acest răspuns doar după %(will_be_able_at)s"
 
 #: models/__init__.py:674
 #, python-format
@@ -3558,10 +3585,12 @@ msgid ""
 "Sorry, only moderators or original author of the question  - %(username)s - "
 "can accept or unaccept the best answer"
 msgstr ""
+"Ne pare rău, însă doar moderatorii sau autorul întrebării - %(username)s - "
+"pot să accepte sau nu un răspuns"
 
 #: models/__init__.py:697
 msgid "Sorry, you cannot vote for your own posts"
-msgstr ""
+msgstr "Ne pare rău dar nu îți poți vota propria postare"
 
 #: models/__init__.py:701
 msgid "Sorry your account appears to be blocked "
@@ -3592,15 +3621,15 @@ msgstr "Utilizatorii suspendați nu pot încărca fișiere"
 #: models/__init__.py:740
 #, python-format
 msgid "sorry, file uploading requires karma >%(min_rep)s"
-msgstr ""
+msgstr "ne pare rău, dar uploadul de fisiere este permis doar utilizatorilor cu reputația >%(min_rep)s"
 
 #: models/__init__.py:759
 msgid "Could not post, because your karma is insufficient to publish links"
-msgstr ""
+msgstr "Nu poți posta, pentru ca reputația ta este insuficientă pentru a posta linkuri"
 
 #: models/__init__.py:785
 msgid "Sorry, you already gave an answer, please edit it instead."
-msgstr ""
+msgstr "Ne pare rău dar ai dat deja un răspuns, te rugăm să îl editezi pe acesta în loc să postezi"
 
 #: models/__init__.py:809
 #, python-format
@@ -3610,9 +3639,15 @@ msgid ""
 msgid_plural ""
 "Sorry, comments (except the last one) are editable only within %(minutes)s "
 "minutes from posting"
-msgstr[0] "Comentariile (cu excepția ultimului) pot fi modificate numai într-un interval de %(minutes)s minut de la postare"
-msgstr[1] "Comentariile (cu excepția ultimului) pot fi modificate numai într-un interval de %(minutes)s minute de la postare"
-msgstr[2] "Comentariile (cu excepția ultimului) pot fi modificate numai într-un interval de %(minutes)s de minute de la postare"
+msgstr[0] ""
+"Comentariile (cu excepția ultimului) pot fi modificate numai într-un "
+"interval de %(minutes)s minut de la postare"
+msgstr[1] "
+"Comentariile (cu excepția ultimului) pot fi modificate numai într-un "
+"interval de %(minutes)s minute de la postare"
+msgstr[2] "
+"Comentariile (cu excepția ultimului) pot fi modificate numai într-un "
+"interval de %(minutes)s de minute de la postare"
 
 #: models/__init__.py:821
 msgid "Sorry, but only post owners or moderators can edit comments"
@@ -3621,26 +3656,33 @@ msgstr "Doar cel care a adăugat mesajul și moderatorii pot modifica comentarii
 #: models/__init__.py:850
 msgid ""
 "Sorry, since your account is suspended you can comment only your own posts"
-msgstr "Deoarece contul dumneavoastră este suspendat, puteți comenta numai postările proprii"
+msgstr ""
+"Deoarece contul dumneavoastră este suspendat, puteți comenta numai postările proprii"
 
 #: models/__init__.py:854
 #, python-format
 msgid ""
 "Sorry, to comment any post a minimum reputation of %(min_rep)s points is "
 "required. You can still comment your own posts and answers to your questions"
-msgstr "Ne pare rău, pentru a comenta la un mesaj este necesar un minim de %(min_rep)s puncte de reputație. Puteți în continuare să comentați mesajele și răspunsurile pentru întrebările proprii"
+msgstr ""
+"Ne pare rău, pentru a comenta la un mesaj este necesar un minim "
+"de %(min_rep)s puncte de reputație. Puteți în continuare să comentați mesajele și răspunsurile pentru întrebările proprii"
 
 #: models/__init__.py:884
 msgid ""
 "This post has been deleted and can be seen only by post owners, site "
 "administrators and moderators"
-msgstr "Această postare a fost ștearsă și poate fi văzută numai de către proprietari, administratorii site-ului și moderatori"
+msgstr ""
+"Această postare a fost ștearsă și poate fi văzută numai de către "
+"proprietari, administratorii site-ului și moderatori"
 
 #: models/__init__.py:901
 msgid ""
 "Sorry, only moderators, site administrators and post owners can edit deleted"
 " posts"
-msgstr "Numai moderatorii, administratorii site-ului și proprietarii postării pot modifica postările șterse"
+msgstr ""
+"Numai moderatorii, administratorii site-ului și proprietarii postării pot "
+"modifica postările șterse"
 
 #: models/__init__.py:917
 msgid "Sorry, since your account is blocked you cannot edit posts"
@@ -3649,20 +3691,25 @@ msgstr "Deoarece contul dumneavoastră este blocat, nu puteți modifica postări
 #: models/__init__.py:921
 msgid ""
 "Sorry, since your account is suspended you can edit only your own posts"
-msgstr "Deoarece contul dumneavoastră este suspendat, puteți modifica numai postările proprii"
+msgstr ""
+"Deoarece contul dumneavoastră este suspendat, puteți modifica numai "
+"postările proprii"
 
 #: models/__init__.py:926
 #, python-format
 msgid ""
 "Sorry, to edit wiki posts, a minimum reputation of %(min_rep)s is required"
-msgstr "Pentru a modifica wiki-ul, este necesar un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Pentru a modifica wiki-ul, este necesar un minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:933
 #, python-format
 msgid ""
 "Sorry, to edit other people's posts, a minimum reputation of %(min_rep)s is "
 "required"
-msgstr "Ne pare rău, pentru a modifica mesajele altor utilizatori este nevoie de un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Ne pare rău, pentru a modifica mesajele altor utilizatori este nevoie de un "
+"minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:996
 msgid ""
@@ -3671,9 +3718,15 @@ msgid ""
 msgid_plural ""
 "Sorry, cannot delete your question since it has some upvoted answers posted "
 "by other users"
-msgstr[0] "Nu puteți șterge întrebarea deoarece beneficiază de un răspuns votat pozitiv de altcineva"
-msgstr[1] "Nu puteți șterge întrebarea deoarece beneficiază de răspunsuri votate pozitiv de alți utilizatori"
-msgstr[2] "Nu puteți șterge întrebarea deoarece beneficiază de răspunsuri votate pozitiv de alți utilizatori"
+msgstr[0] ""
+"Nu puteți șterge întrebarea deoarece beneficiază de un răspuns "
+"votat pozitiv de altcineva"
+msgstr[1] ""
+"Nu puteți șterge întrebarea deoarece beneficiază de răspunsuri "
+"votate pozitiv de alți utilizatori"
+msgstr[2] ""
+"Nu puteți șterge întrebarea deoarece beneficiază de răspunsuri "
+"votate pozitiv de alți utilizatori"
 
 #: models/__init__.py:1011
 msgid "Sorry, since your account is blocked you cannot delete posts"
@@ -3682,7 +3735,8 @@ msgstr "Deoarece contul dumneavoastră este blocat, nu puteți șterge postări"
 #: models/__init__.py:1015
 msgid ""
 "Sorry, since your account is suspended you can delete only your own posts"
-msgstr "Deoarece contul dumneavoastră este suspendat, puteți șterge numai postările proprii"
+msgstr ""
+"Deoarece contul dumneavoastră este suspendat, puteți șterge numai postările proprii"
 
 #: models/__init__.py:1019
 #, python-format
@@ -3690,6 +3744,8 @@ msgid ""
 "Sorry, to delete other people's posts, a minimum reputation of %(min_rep)s "
 "is required"
 msgstr ""
+"Ne pare rău, pentru a șterge postările altora, o reputație de minim %(min_rep)s"
+"este necesară"
 
 #: models/__init__.py:1040
 msgid "Sorry, since your account is blocked you cannot close questions"
@@ -3704,44 +3760,53 @@ msgstr "Deoarece contul dumneavoastră este suspendat, nu puteți închide într
 msgid ""
 "Sorry, to close other people' posts, a minimum reputation of %(min_rep)s is "
 "required"
-msgstr "Ne pare rău, pentru a închide mesajele altor utilizatori este nevoie de un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Ne pare rău, pentru a închide mesajele altor utilizatori este nevoie "
+"de un minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:1057
 #, python-format
 msgid ""
 "Sorry, to close own question a minimum reputation of %(min_rep)s is required"
-msgstr "Ne pare rău, pentru a închide propria întrebare este nevoie de un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Ne pare rău, pentru a închide propria întrebare este nevoie de un "
+"minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:1084
 #, python-format
 msgid ""
 "Sorry, only administrators, moderators or post owners with reputation > "
 "%(min_rep)s can reopen questions."
-msgstr "Ne pare rău, doar administratorii, moderatorii și proprietarii mesajelor cu o reputație de minim %(min_rep)s puncte de reputație pot redeschide întrebări."
+msgstr ""
+"Ne pare rău, doar administratorii, moderatorii și proprietarii "
+"mesajelor cu o reputație de minim %(min_rep)s puncte de reputație pot redeschide întrebări."
 
 #: models/__init__.py:1090
 #, python-format
 msgid ""
 "Sorry, to reopen own question a minimum reputation of %(min_rep)s is "
 "required"
-msgstr "Ne pare rău, pentru a redesche propria întrebare este nevoie de un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Ne pare rău, pentru a redesche propria întrebare este nevoie de"
+" un minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:1095
 msgid "Sorry, you cannot reopen questions because your account is blocked"
-msgstr ""
+msgstr "Ne pare rău, nu poți redeschide întrebarea deoarece contul tău este blocat"
 
 #: models/__init__.py:1100
 msgid "Sorry, you cannot reopen questions because your account is suspended"
-msgstr ""
+msgstr "Ne pare rău, nu poți redeschide întrebarea deoarece contul tău este suspendat"
 
 #: models/__init__.py:1123
 msgid "You have flagged this question before and cannot do it more than once"
-msgstr ""
+msgstr "Ai marcat deja această întrebare și nu o poți marca de mai multe ori"
 
 #: models/__init__.py:1131
 msgid ""
 "Sorry, since your account is blocked you cannot flag posts as offensive"
 msgstr ""
+"Ne pare rău, contul tău este blocat și nu poți marca postări ca ofensive"
 
 #: models/__init__.py:1142
 #, python-format
@@ -3749,6 +3814,8 @@ msgid ""
 "Sorry, to flag posts as offensive a minimum reputation of %(min_rep)s is "
 "required"
 msgstr ""
+"Ne pare rău, pentru a putea marca postări ca ofensive este necesară "
+"o reputatie de minim %(min_rep)s"
 
 #: models/__init__.py:1163
 #, python-format
@@ -3756,43 +3823,49 @@ msgid ""
 "Sorry, you have exhausted the maximum number of %(max_flags_per_day)s "
 "offensive flags per day."
 msgstr ""
+"Ne pare rău, ai epuizat numarul maxim %(max_flags_per_day)s de marcări "
+"ofensive pe zi"
 
 #: models/__init__.py:1175
 msgid "cannot remove non-existing flag"
-msgstr ""
+msgstr "nu poți să elimini un marcaj inexistent"
 
 #: models/__init__.py:1181
 msgid "Sorry, since your account is blocked you cannot remove flags"
-msgstr ""
+msgstr "Ne pare rău, deoarece contul tau e blocat nu poți elimina marcaje"
 
 #: models/__init__.py:1185
 msgid ""
 "Sorry, your account appears to be suspended and you cannot remove flags. "
 "Please contact the forum administrator to reach a resolution."
 msgstr ""
+"Ne pare rău, contul tău pare să fie suspendat si nu poți elimina marcaje. "
+"Te rugăm să contactezi administratorul pentru a găsi împreună o soluție."
 
 #: models/__init__.py:1191
 #, python-format
 msgid "Sorry, to flag posts a minimum reputation of %(min_rep)d is required"
 msgid_plural ""
 "Sorry, to flag posts a minimum reputation of %(min_rep)d is required"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ne pare rău, pentru a marca postări este nevoie de o reputație de minim %(min_rep)d punc"
+msgstr[1] "Ne pare rău, pentru a marca postări este nevoie de o reputație de minim %(min_rep)d puncte"
+msgstr[2] "Ne pare rău, pentru a marca postări este nevoie de o reputație de minim %(min_rep)d de puncte"
 
 #: models/__init__.py:1210
 msgid "you don't have the permission to remove all flags"
-msgstr ""
+msgstr "nu ai permisiunile necesare pentru a elimina toate marcajele"
 
 #: models/__init__.py:1211
 msgid "no flags for this entry"
-msgstr ""
+msgstr "niciun marcaj pentru această intrare"
 
 #: models/__init__.py:1235
 msgid ""
 "Sorry, only question owners, site administrators and moderators can retag "
 "deleted questions"
-msgstr "Numai proprietarii întrebării, administratorii site-ului și moderatorii pot reeticheta întrebările șterse"
+msgstr ""
+"Numai proprietarii întrebării, administratorii site-ului și "
+"moderatorii pot reeticheta întrebările șterse"
 
 #: models/__init__.py:1243
 msgid "Sorry, since your account is blocked you cannot retag questions"
@@ -3807,7 +3880,9 @@ msgstr "Deoarece contul dumneavoastră este suspendat, puteți reeticheta numai 
 #, python-format
 msgid ""
 "Sorry, to retag questions a minimum reputation of %(min_rep)s is required"
-msgstr "Ne pare rău, pentru a reeticheta întrebări este nevoie de un minim de %(min_rep)s puncte de reputație"
+msgstr ""
+"Ne pare rău, pentru a reeticheta întrebări este nevoie de un "
+"minim de %(min_rep)s puncte de reputație"
 
 #: models/__init__.py:1270
 msgid "Sorry, since your account is blocked you cannot delete comment"
@@ -3825,7 +3900,7 @@ msgstr "Ne pare rău, pentru a șterge un comentariu este nevoie de un minim de 
 
 #: models/__init__.py:1303
 msgid "sorry, but older votes cannot be revoked"
-msgstr ""
+msgstr "ne pare rău, dar voturile mai vechi nu mai pot fi revocate"
 
 #: models/__init__.py:1995 utils/functions.py:98
 #, python-format
@@ -3834,35 +3909,35 @@ msgstr "în %(date)s"
 
 #: models/__init__.py:1997
 msgid "in two days"
-msgstr ""
+msgstr "în două zile"
 
 #: models/__init__.py:1999
 msgid "tomorrow"
-msgstr ""
+msgstr "mâine"
 
 #: models/__init__.py:2001
 #, python-format
 msgid "in %(hr)d hour"
 msgid_plural "in %(hr)d hours"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[1] "în %(hr)d oră"
+msgstr[2] "în %(hr)d ore"
+msgstr[0] "în %(hr)d de ore"
 
 #: models/__init__.py:2003
 #, python-format
 msgid "in %(min)d min"
 msgid_plural "in %(min)d mins"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "în %(hr)d minut"
+msgstr[1] "în %(hr)d minute"
+msgstr[2] "în %(hr)d de minute"
 
 #: models/__init__.py:2004
 #, python-format
 msgid "%(days)d day"
 msgid_plural "%(days)d days"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(hr)d zi"
+msgstr[1] "%(hr)d zile"
+msgstr[2] "%(hr)d de zile"
 
 #: models/__init__.py:2006
 #, python-format
@@ -3870,6 +3945,8 @@ msgid ""
 "New users must wait %(days)s before answering their own question.  You can "
 "post an answer %(left)s"
 msgstr ""
+"Utilizatorii noi trebuie să aștepte %(days)s înainte să răspundă la propria întrebare.  Poți posta "
+"un răspuns %(left)s"
 
 #: models/__init__.py:2194 templates/email/feedback_email.txt:9
 msgid "Anonymous"
@@ -3946,60 +4023,62 @@ msgstr "%(user)s are %(badges)s"
 #, python-format
 msgid "At least %d karma point is required to post links"
 msgid_plural "At least %d karma points is required to post links"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Cel puțin %d punct de reputație este necesare pentru a posta linkuri"
+msgstr[1] "Cel puțin %d puncte de reputație sunt necesare pentru a posta linkuri"
+msgstr[2] "Cel puțin %d de puncte de reputație sunt necesare pentru a posta linkuri"
 
 #: models/__init__.py:3159
 #, python-format
 msgid "%(user)s shared a %(post_link)s."
-msgstr ""
+msgstr "%(user)s a publicat %(post_link)s."
 
 #: models/__init__.py:3162 models/__init__.py:3172
 #, python-format
 msgid "%(user)s edited a %(post_link)s."
-msgstr ""
+msgstr "%(user)s a modificat %(post_link)s."
 
 #: models/__init__.py:3164
 #, python-format
 msgid "%(user)s posted a %(post_link)s"
-msgstr ""
+msgstr "%(user)s a postat %(post_link)s"
 
 #: models/__init__.py:3167
 #, python-format
 msgid "%(user)s edited an %(post_link)s."
-msgstr ""
+msgstr "%(user)s a editat %(post_link)s."
 
 #: models/__init__.py:3169
 #, python-format
 msgid "%(user)s posted an %(post_link)s."
-msgstr ""
+msgstr "%(user)s a postat %(post_link)s."
 
 #: models/__init__.py:3174
 #, python-format
 msgid "%(user)s posted a %(post_link)s."
-msgstr ""
+msgstr "%(user)s a postat %(post_link)s."
 
 #: models/__init__.py:3190
 msgid "To reply, PLEASE WRITE ABOVE THIS LINE."
-msgstr ""
+msgstr "Pentru a răspunde, VĂ RUGĂM SCRIEȚI DEASUPRA ACESTEI LINII"
 
 #: models/__init__.py:3232
 #, python-format
 msgid "\"%(title)s\""
-msgstr ""
+msgstr "\"%(title)s\""
 
 #: models/__init__.py:3384
 #, python-format
 msgid ""
 "Congratulations, you have received a badge '%(badge_name)s'. Check out <a "
 "href=\"%(user_profile)s\">your profile</a>."
-msgstr "Felicitări, ați obținut o insignă „%(badge_name)s”. Verificați <a href=\"%(user_profile)s\">profilul propriu</a>."
+msgstr ""
+"Felicitări, ați obținut o insignă „%(badge_name)s”. Verificați "
+"<a href=\"%(user_profile)s\">profilul propriu</a>."
 
 #: models/__init__.py:3657
 #, python-format
 msgid "Welcome to %(site_name)s"
-msgstr ""
+msgstr "Bine ați venit pe %(site_name)s"
 
 #: models/__init__.py:3678 views/commands.py:697
 msgid "Your tag subscription was saved, thanks!"
@@ -4156,7 +4235,9 @@ msgstr "Răspuns acceptat cu %(num)s sau mai multe voturi"
 msgid ""
 "Answered a question more than %(days)s days later with at least %(votes)s "
 "votes"
-msgstr "A răspuns unei întrebări mai mult de %(days)s zile mai târziu cu cel puțin %(votes)s voturi"
+msgstr ""
+"A răspuns unei întrebări mai mult de %(days)s zile mai târziu cu "
+"cel puțin %(votes)s voturi"
 
 #: models/badges.py:525
 msgid "Necromancer"
@@ -4269,15 +4350,15 @@ msgstr "Foarte activ pe o anumită etichetă"
 
 #: models/message.py:16
 msgid "message"
-msgstr ""
+msgstr "mesaj"
 
 #: models/post.py:414
 msgid "Question: "
-msgstr ""
+msgstr "Întrebare"
 
 #: models/post.py:416
 msgid "Answer: "
-msgstr ""
+msgstr "Răspuns: "
 
 #: models/post.py:1570
 msgid "Sorry, this question has been deleted and is no longer accessible"
@@ -4287,7 +4368,9 @@ msgstr "Ne pare rău, această întrebare a fost ștearsă și nu mai este acces
 msgid ""
 "Sorry, the answer you are looking for is no longer available, because the "
 "parent question has been removed"
-msgstr "Ne pare rău, răspunsul pe care îl cautați nu mai etse disponibil deoarece întrebarea asociată a fost ștearsă"
+msgstr ""
+"Ne pare rău, răspunsul pe care îl cautați nu mai etse disponibil "
+"deoarece întrebarea asociată a fost ștearsă"
 
 #: models/post.py:1593
 msgid "Sorry, this answer has been removed and is no longer accessible"
@@ -4297,17 +4380,21 @@ msgstr "Ne pară rău, această întrebarea a fost ștearsă și nu mai este acc
 msgid ""
 "Sorry, the comment you are looking for is no longer accessible, because the "
 "parent question has been removed"
-msgstr "Ne pare rău, comentariu pe care îl cautați nu mai este accesibil deoarece întrebarea asociată a fost ștearsă"
+msgstr ""
+"Ne pare rău, comentariu pe care îl cautați nu mai este accesibil "
+"deoarece întrebarea asociată a fost ștearsă"
 
 #: models/post.py:1616
 msgid ""
 "Sorry, the comment you are looking for is no longer accessible, because the "
 "parent answer has been removed"
-msgstr "Ne pare rău, comentariul pe care îl cautați nu mai este accesibil deoarece răspunsul asociat a fost șters"
+msgstr ""
+"Ne pare rău, comentariul pe care îl cautați nu mai este accesibil "
+"deoarece răspunsul asociat a fost șters"
 
 #: models/post.py:1638
 msgid "This post is temporarily not available"
-msgstr ""
+msgstr "Această postare nu este disponibilă temporar"
 
 #: models/post.py:2147
 #, python-format
@@ -4315,17 +4402,21 @@ msgid ""
 "Thank you for your post to %(site)s. It will be published after the "
 "moderators review."
 msgstr ""
+"Mulțumim pentru postarea ta pe %(site)s. Va fi făcută publică după ce"
+"un moderator o va aproba"
 
 #: models/post.py:2151
 #, python-format
 msgid "your post to %(site)s"
-msgstr ""
+msgstr "postarea ta pe %(site)s"
 
 #: models/post.py:2158
 msgid ""
 "Your post was placed on the moderation queue and will be published after the"
 " moderator approval."
 msgstr ""
+"Postul tău a fost pus în coada de aștepare a unui moderator si va fi public"
+"după aprobarea acestuia"
 
 #: models/question.py:108
 #, python-format
@@ -4340,56 +4431,56 @@ msgstr "\" și în plus"
 #, python-format
 msgid "%(count)d answer:"
 msgid_plural "%(count)d answers:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(count)d răspuns"
+msgstr[1] "%(count)d răspunsuri"
+msgstr[2] "%(count)d de răspunsuri"
 
 #: models/question.py:1346
 #, python-format
 msgid "Tag %s is new and will be submitted for the moderators approval"
-msgstr ""
+msgstr "Eticheta %s este nouă si va fi trimisă unui moderator pentru aprobare"
 
 #: models/question.py:1351 models/tag.py:217
 #, python-format
 msgid "Tags %s are new and will be submitted for the moderators approval"
-msgstr ""
+msgstr "Etichetele %s sunt noi si vor fi trimise unui moderator pentru aprobare"
 
 #: models/question.py:1590
 #, python-format
 msgid "Please, <a href=\"%s\">review your question</a>."
-msgstr ""
+msgstr "Te rugăm, <a href=\"%s\">analizează-ți întrebarea</a>."
 
 #: models/reply_by_email.py:38
 msgid "Post an answer"
-msgstr ""
+msgstr "Postează un răspuns"
 
 #: models/reply_by_email.py:39
 msgid "Post a comment"
-msgstr ""
+msgstr "Postează un comentariu"
 
 #: models/reply_by_email.py:40
 msgid "Edit post"
-msgstr ""
+msgstr "Modifică postarea"
 
 #: models/reply_by_email.py:41
 msgid "Append to post"
-msgstr ""
+msgstr "Adaugă la sfârșitul unui post"
 
 #: models/reply_by_email.py:42
 msgid "Answer or comment, depending on the size of post"
-msgstr ""
+msgstr "Răspunde sau comentează, în funcție de mărimea postului"
 
 #: models/reply_by_email.py:43
 msgid "Validate email and record signature"
-msgstr ""
+msgstr "Validează emailul si înregistrează semnătura"
 
 #: models/reply_by_email.py:106
 msgid "added content by email"
-msgstr ""
+msgstr "a adăugat conținut prin email"
 
 #: models/reply_by_email.py:109
 msgid "edited by email"
-msgstr ""
+msgstr "editat prin email"
 
 #: models/repute.py:207
 #, python-format
@@ -4401,19 +4492,23 @@ msgstr "<em>Schimbat de moderator. Motiv:</em> %(reason)s"
 msgid ""
 "%(points)s points were added for %(username)s's contribution to question "
 "%(question_title)s"
-msgstr "%(points)s puncte au fost adăugate pentru contribuția utilizatorului %(username)s la întrebarea %(question_title)s"
+msgstr ""
+"%(points)s puncte au fost adăugate pentru contribuția utilizatorului"
+" %(username)s la întrebarea %(question_title)s"
 
 #: models/repute.py:223
 #, python-format
 msgid ""
 "%(points)s points were subtracted for %(username)s's contribution to "
 "question %(question_title)s"
-msgstr "%(points)s puncte au fost retrase pentru contribuția utilizatorului %(username)s la întrebarea %(question_title)s"
+msgstr ""
+"%(points)s puncte au fost retrase pentru contribuția utilizatorului "
+"%(username)s la întrebarea %(question_title)s"
 
 #: models/tag.py:209
 #, python-format
 msgid "New tags added to %s"
-msgstr ""
+msgstr "Etichete noi adăugate la %s"
 
 #: models/user.py:316
 msgid "Entire forum"
@@ -4453,27 +4548,27 @@ msgstr "Fără email"
 
 #: models/user.py:566
 msgid "Can join when they want"
-msgstr ""
+msgstr "Se pot alătura când doresc"
 
 #: models/user.py:567
 msgid "Users ask permission"
-msgstr ""
+msgstr "Utilizatorii cer permisiunea"
 
 #: models/user.py:568
 msgid "Moderator adds users"
-msgstr ""
+msgstr "Moderatorul adaugă utilizatori"
 
 #: models/user.py:617
 msgid "Please give a list of valid email addresses."
-msgstr ""
+msgstr "Te rog să introduci o listă de emailuri valide"
 
 #: models/user.py:627
 msgid "Please give a list of valid email domain names."
-msgstr ""
+msgstr "Te rog să introduci o lista valida de nume de domenii de email"
 
 #: models/widgets.py:34
 msgid "css for the widget"
-msgstr ""
+msgstr "css pentru widget"
 
 #: templates/404.html:3 templates/404.html.py:10
 msgid "Page not found"
@@ -4499,7 +4594,9 @@ msgstr "legătura conține erori - verificați;"
 msgid ""
 "the page you tried to visit is protected or you don't have sufficient "
 "points, see"
-msgstr "pagina pe care ați încercat să o vizitați este protejată și nu aveți suficiente puncte, vezi"
+msgstr ""
+"pagina pe care ați încercat să o vizitați este protejată și nu "
+"aveți suficiente puncte, vezi"
 
 #: templates/404.html:19 templates/widgets/footer.html:39
 msgid "faq"
@@ -4585,13 +4682,15 @@ msgstr "arată previzualizarea"
 #: templates/ask.html:4 templates/widgets/ask_button.html:9
 #: templates/widgets/ask_form.html:67
 msgid "Ask Your Question"
-msgstr ""
+msgstr "Pune o întrebare"
 
 #: templates/ask.html:21
 msgid ""
 "since you are not logged in right now, you will be asked to sign in or "
 "register after posting your question"
 msgstr ""
+"deoarece nu esti autentificat in acest moment, ți se va cere să te autentifici sau "
+"să te înregistrezi după postarea întrebării"
 
 #: templates/ask.html:25
 #, python-format
@@ -4601,6 +4700,10 @@ msgid ""
 "details here</a>. You can submit your question now and validate email after "
 "that. Meanwhile, your question will saved as pending."
 msgstr ""
+"Your email, %(email)s has not yet been validated. To post messages you must "
+"verify your email, please see <a href='%(email_validation_faq_url)s'>more "
+"details here</a>. You can submit your question now and validate email after "
+"that. Meanwhile, your question will saved as pending."
 
 #: templates/ask.html:29
 msgid "please, try to make your question interesting to this community"

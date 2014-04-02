@@ -4241,7 +4241,7 @@ msgstr ""
 
 #: models/badges.py:525
 msgid "Necromancer"
-msgstr ""
+msgstr "Necromant"
 
 #: models/badges.py:548
 msgid "Citizen Patrol"
@@ -4700,19 +4700,19 @@ msgid ""
 "details here</a>. You can submit your question now and validate email after "
 "that. Meanwhile, your question will saved as pending."
 msgstr ""
-"Your email, %(email)s has not yet been validated. To post messages you must "
-"verify your email, please see <a href='%(email_validation_faq_url)s'>more "
-"details here</a>. You can submit your question now and validate email after "
-"that. Meanwhile, your question will saved as pending."
+"Emailul, %(email)s nu a fost încă validat. Pentru a posta mesaje trebuie "
+"să validezi emailul, te rugăm să citești <a href='%(email_validation_faq_url)s'>mai "
+"multe detalii aici</a>. Poți să postezi întrebarea ta acum și să validezi emailul mai târziu. "
+"Între timp întrebarea ta va fi salvată cu statusul \"în așteptare\"."
 
 #: templates/ask.html:29
 msgid "please, try to make your question interesting to this community"
-msgstr ""
+msgstr "te rugăm, încearcă să faci întrebarea ta interesantă pentru comunitate"
 
 #: templates/ask.html:30 templates/widgets/answer_edit_tips.html:12
 #: templates/widgets/question_edit_tips.html:8
 msgid "provide enough details"
-msgstr ""
+msgstr "oferiți suficiente detalii"
 
 #: templates/ask.html:31 templates/widgets/answer_edit_tips.html:15
 #: templates/widgets/question_edit_tips.html:11
@@ -4771,7 +4771,8 @@ msgstr "Comunitatea vă recompensează pentru întrebările, răspunsurile și v
 msgid ""
 "Below is the list of available badges and number of times each type of badge"
 " has been awarded."
-msgstr ""
+msgstr "Mai jos găsiți o listă cu insignele disponibile și de câte ori a fost "
+"câștigat"
 
 #: templates/badges.html:31
 msgid "Community badges"
@@ -4786,20 +4787,23 @@ msgid ""
 "Gold badge is the highest award in this community. To obtain it you have to show \n"
 "profound knowledge and ability in addition to your active participation."
 msgstr ""
+"Insigna de aur este cea mai mare recompensă în această comunitate. Pentru a o câștiga trebuie să \n"
+"dai dovadă de cunoștințe vaste și abilitate pe lângă participarea ta activă"
 
 #: templates/badges.html:42 templates/badges.html.py:46
 msgid ""
 "silver badge: occasionally awarded for the very high quality contributions"
-msgstr "insignă de argint: acordată ocazional pentru contribuții de cea mai bună calitate"
+msgstr ""
+"insignă de argint: acordată ocazional pentru contribuții de cea mai bună calitate"
 
 #: templates/badges.html:49 templates/badges.html.py:53
 msgid "bronze badge: often given as a special honor"
-msgstr "insignă de argint: acordată adesea pentru a onora pe cineva într-un mod special"
+msgstr "insignă de bronz: acordată adesea pentru a onora pe cineva într-un mod special"
 
 #: templates/base.html:23
 #, python-format
 msgid "RSS feed from %(site_title)s"
-msgstr ""
+msgstr "Flux RSS pentru %(site_title)s"
 
 #: templates/close.html:3 templates/close.html.py:5
 msgid "Close question"
@@ -4830,22 +4834,28 @@ msgid ""
 "Most importantly - questions should be <strong>relevant</strong> to this "
 "community."
 msgstr ""
+"Cel mai important - întrebările ar trebui să fie <strong>relevante</strong> pentru această "
+"comunitate"
 
 #: templates/faq_static.html:8
 msgid ""
 "Before you ask - please make sure to search for a similar question. You can "
 "search questions by their title or tags."
 msgstr ""
+"Înainte să întrebi - te rugăm sa te asiguri că ai căutat întrebări similare. Poți "
+"căuta întrebări după titluri sau etichete"
 
 #: templates/faq_static.html:10
 msgid "What kinds of questions should be avoided?"
-msgstr ""
+msgstr "Ce tip de întrebări ar trebui evitat?"
 
 #: templates/faq_static.html:11
 msgid ""
 "Please avoid asking questions that are not relevant to this community, too "
 "subjective and argumentative."
-msgstr "Vă rugăm să evitați a pune întrebări care nu sunt relevante pentru această comunitate, prea subiective și argumentative."
+msgstr ""
+"Vă rugăm să evitați a pune întrebări care nu sunt relevante pentru această "
+"comunitate, prea subiective și argumentative."
 
 #: templates/faq_static.html:13
 msgid "What should I avoid in my answers?"
@@ -4858,6 +4868,10 @@ msgid ""
 "they tend to dilute the essense of questions and answers. For the brief "
 "discussions please use commenting facility."
 msgstr ""
+"este un site de <strong>întrebări și răspunsuri</strong> - <strong>nu este un "
+"grup de discuții</strong>. Vă rugăm să evitați dezbaterile în răspunsurile voastre deoarece "
+"ele tind să dilueze esența întrebărilor și a răspunsurilor. Pentru discuții scurte "
+"vă rugăm folosiți comantariile."
 
 #: templates/faq_static.html:15
 msgid "Who moderates this community?"
@@ -4901,7 +4915,16 @@ msgid ""
 "points that can be accumulated for a question or answer per day. The table "
 "below explains reputation point requirements for each type of moderation "
 "task."
-msgstr "De exemplu, dacă puneți o întrebare interesantă sau dacă oferiți un răspuns util, veți fi apreciat cu voturi pozitive. Pe de altă parte, dacă răspunsul este greșit, va fi votat negativ. Fiecare vot pozitiv va genera puncte <strong>%(REP_GAIN_FOR_RECEIVING_UPVOTE)s</strong> points, fiecare vot negativ va șterge puncte <strong>%(REP_LOSS_FOR_RECEIVING_DOWNVOTE)s</strong>. Există o limită a punctelor <strong>%(MAX_REP_GAIN_PER_USER_PER_DAY)s</strong> pe care le puteți acumula pentru o întrebare sau un răspuns în decursul unei zile. Tabelul de mai jos explică necesarul de puncte de reputație necesare pentru fiecare tip de sarcină de moderare."
+msgstr ""
+"De exemplu, dacă puneți o întrebare interesantă sau dacă oferiți un răspuns "
+"util, veți fi apreciat cu voturi pozitive. Pe de altă parte, dacă răspunsul "
+"este greșit, va fi votat negativ. Fiecare vot pozitiv va genera puncte "
+"<strong>%(REP_GAIN_FOR_RECEIVING_UPVOTE)s</strong> points, fiecare vot negativ "
+"va șterge puncte <strong>%(REP_LOSS_FOR_RECEIVING_DOWNVOTE)s</strong>. Există o "
+"limită a punctelor <strong>%(MAX_REP_GAIN_PER_USER_PER_DAY)s</strong> pe care le "
+"puteți acumula pentru o întrebare sau un răspuns în decursul unei zile. Tabelul "
+"de mai jos explică necesarul de puncte de reputație necesare pentru fiecare tip "
+"de sarcină de moderare."
 
 #: templates/faq_static.html:32 templates/user_profile/user_votes.html:14
 msgid "upvote"
@@ -4933,15 +4956,15 @@ msgstr "modifică întrebările wiki-ului comunității"
 
 #: templates/faq_static.html:63
 msgid "edit any answer"
-msgstr ""
+msgstr "modifică orice răspuns"
 
 #: templates/faq_static.html:67
 msgid "delete any comment"
-msgstr ""
+msgstr "șterge orice comentariu"
 
 #: templates/faq_static.html:71
 msgid "How to change my picture (gravatar) and what is gravatar?"
-msgstr ""
+msgstr "Cum îmi schimb poza (gravatar) și ce înseamnă gravatar?"
 
 #: templates/faq_static.html:72
 msgid ""
@@ -4960,6 +4983,18 @@ msgid ""
 " sure to use the same email address that you used to register with us). "
 "Default image that looks like a kitchen tile is generated automatically.</p>"
 msgstr ""
+"<p>Poza care apare la profilul utilizatorul se numește "
+"<strong>gravatar</strong> (ceea ce înseamnă: <i><strong>g</strong>lobally "
+"<strong>r</strong>ecognized <strong>avatar</strong></i> - avatar recunoscut global). "
+"Funcționează în felul următor: este calculată <strong>o cheie criptografică</strong> "
+" (care nu poate fi spartă) pe baza adresei de email. Tu faci upload la poza ta "
+"(sau imaginea ta alter ego) pe site-ul <a href='http://gravatar.com'><strong>gravatar.com</strong></a>"
+" de unde noi o descărcăm mai târziu folosind cheia.</p><p>În acest fel toate website-uril în care ai încredere (si le dai adresa de email)"
+" pot afișa imaginea aleasă de tine lângă postările tale iar adresa ta rămâne ascunsă.</p>"
+" <p>Te rugăm <strong>prsonalizează-ți contul</strong> cu o imagine "
+" - înregistrează-te la <a href='http://gravatar.com'><strong>gravatar.com</strong></a> (dar te rugăm"
+" asigură-te că folosești aceeași adresă de email care o folosești pe site-ul nostru). "
+" Imaginea implicită care arată ciudat este generată automat.</p>"
 
 #: templates/faq_static.html:73
 msgid "To register, do I need to create new password?"
@@ -4970,6 +5005,8 @@ msgid ""
 "No, you don't have to. You can login through any service that supports "
 "OpenID, e.g. Google, Yahoo, AOL, etc."
 msgstr ""
+"Nu, nu trebuie. Te poți autentifica prin orice serviciu care suportă"
+"OpenID, e.g. Google, Yahoo, AOL, etc."
 
 #: templates/faq_static.html:75
 msgid "\"Login now!\""
@@ -4988,7 +5025,9 @@ msgid ""
 "So questions and answers can be edited like wiki pages by experienced users "
 "of this site and this improves the overall quality of the knowledge base "
 "content."
-msgstr "Întrebările și răspunsurile pot fi modifica asemănător paginilor wiki de către utilizatori cu experineță în acest fel îmbunătățindu-se calitatea bazei de cunoștințe."
+msgstr ""
+"Întrebările și răspunsurile pot fi modifica asemănător paginilor wiki de către "
+"utilizatori cu experineță în acest fel îmbunătățindu-se calitatea bazei de cunoștințe."
 
 #: templates/faq_static.html:79
 msgid "If this approach is not for you, we respect your choice."
@@ -5004,6 +5043,8 @@ msgid ""
 "Please <a href='%(ask_question_url)s'>ask</a> your question, help make our "
 "community better!"
 msgstr ""
+"Te rugăm să <a href='%(ask_question_url)s'>postezi</a> întrebarea ta, ajută-ne să "
+"îmbunătățim comunitatea!"
 
 #: templates/feedback.html:3
 msgid "Feedback"
@@ -5032,7 +5073,7 @@ msgstr "\n        <span class='big strong'>Stimate vizitator(user_name)s</span> 
 
 #: templates/feedback.html:30
 msgid "(to hear from us please enter a valid email or check the box below)"
-msgstr ""
+msgstr "(ca să prinmești vești de la noi te rugăm să introduci un email valid în câmpul de mai jos)"
 
 #: templates/feedback.html:37 templates/feedback.html.py:46
 msgid "(this field is required)"
@@ -5040,7 +5081,7 @@ msgstr "(acest câmp este obligatoriu)"
 
 #: templates/feedback.html:55
 msgid "(Please solve the captcha)"
-msgstr ""
+msgstr "(Te rugăm să introduci textul din imagine)"
 
 #: templates/feedback.html:63
 msgid "Send Feedback"
@@ -5050,125 +5091,139 @@ msgstr "Trimite sugestia"
 #: templates/question/sidebar.html:108
 #: templates/tags/list_bulk_tag_subscription.html:15
 msgid "Groups"
-msgstr ""
+msgstr "Grupuri"
 
 #: templates/groups.html:11
 msgid "All groups"
-msgstr ""
+msgstr "Toate grupurile"
 
 #: templates/groups.html:13
 msgid "all groups"
-msgstr ""
+msgstr "toate grupurile"
 
 #: templates/groups.html:15
 msgid "My groups"
-msgstr ""
+msgstr "Grupurile mele"
 
 #: templates/groups.html:17
 msgid "my groups"
-msgstr ""
+msgstr "grupurile mele"
 
 #: templates/groups.html:25
 msgid ""
 "Tip: to create a new group - please go to some user profile and add the new "
 "group there. That user will be the first member of the group"
 msgstr ""
+"Sfat: pentru a crea un grup nou - te rugăm mergi la profilul unui utilizator si adaugă noul grup "
+"acolo. Acel utilizator va fi primul membru al grupului."
 
 #: templates/groups.html:30
 msgid "Group"
-msgstr ""
+msgstr "Grup"
 
 #: templates/groups.html:31
 msgid "Number of members"
-msgstr ""
+msgstr "Număr de membri"
 
 #: templates/help.html:2 templates/help.html.py:4
 msgid "Help"
-msgstr ""
+msgstr "Ajutor"
 
 #: templates/help.html:7
 #, python-format
 msgid "Welcome %(username)s,"
-msgstr ""
+msgstr "Bine ai venit %(username)s,"
 
 #: templates/help.html:9
 msgid "Welcome,"
-msgstr ""
+msgstr "Bine ai venit,"
 
 #: templates/help.html:13
 #, python-format
 msgid "Thank you for using %(app_name)s, here is how it works."
-msgstr ""
+msgstr "Îți mulțumim că utilizezi %(app_name)s, cam așa functionează:"
 
 #: templates/help.html:16
 msgid "How questions, answers and comments work"
-msgstr ""
+msgstr "Cum funcționează întrebările, răspunsurile și comentariile"
 
 #: templates/help.html:18
 msgid ""
 "This site is for asking and answering questions, not for open-ended "
 "discussions."
-msgstr ""
+msgstr "Acest site este pentru a pune întrebări și pentru a oferi răspunsuri "
+"și nu pentru discuții deschise."
 
 #: templates/help.html:19
 msgid ""
 "We encourage everyone to use “question” space for asking and “answer” for "
 "answering."
-msgstr ""
+msgstr "Folosiți spațiul de “întrebări” pentru a posta o întrebare și "
+"spațiul de “răspuns” pentru a răspunde."
 
 #: templates/help.html:22
 msgid ""
 "Despite that, each question and answer can be commented – \n"
 "    the comments are good for the limited discussions."
 msgstr ""
+"În ciuda faptului că, fiecare întrebare și răspuns pot avea comentarii – \n"
+"    acestea sunt doar pentru discuții limitate"
 
 #: templates/help.html:26
 msgid "Please search before asking your questions"
-msgstr ""
+msgstr "Te rugăm să cauți înainte să pui o întrebare"
 
 #: templates/help.html:27
 msgid ""
 "Type your question in the search bar and see whether a similar question has "
 "been asked before"
 msgstr ""
+"Tipărește întrebarea ta în caseta de căutare și vezi dacă a fost postată deja vre-o"
+"întrebare similară."
 
 #: templates/help.html:29
 msgid "Search has advanced capabilities:"
-msgstr ""
+msgstr "Mecanismul de căutare are capabilități avansate"
 
 #: templates/help.html:31
 msgid "to search in title - enter [title: your text]"
-msgstr ""
+msgstr "pentru a căuta în titluri - introduceți [title: termeni de căutare]"
 
 #: templates/help.html:32
 msgid "to search by tags - enter [tag: sometag] or #sometag"
-msgstr ""
+msgstr "pentru a căuta în etichete - introduceți [tag: termeni de căutare]"
 
 #: templates/help.html:33
 msgid "to search by user - enter [user: somename] or @somename or @\"some name\""
-msgstr ""
+msgstr "pentru a căuta după utilizator - introduceți [user: termeni de căutare]"
 
 #: templates/help.html:35
 msgid ""
 "In addition, it is possible to click on tags to add them to the search "
 "query."
 msgstr ""
+"În plus, este posibil să faci click pe etichete pentru a le adăuga "
+"în interogarea de căutare"
 
 #: templates/help.html:37
 msgid ""
 "Finally, a separate tag search box is available in the side bar of the main "
 "page, where the search tags can be entered as well"
 msgstr ""
+"În final, o casetă separată pentru căutarea eticheteloor este disponibilă în bara laterală "
+"a paginii principale, unde pot fi introduse etichete pentru căutare"
 
 #: templates/help.html:40
 msgid ""
 "<em>Important!!!</em> All search terms are combined with a logical \"AND\" "
 "expression - to narrow the search by adding new terms."
 msgstr ""
+"<em>Important!!!</em> Toți termenii de căutare sunt aditivi: de exemplu \"mere pere\" înseamnă toate "
+"postările care conțin "mere și pere" - pentru a rafina rezultatele adăugați termeni noi."
 
 #: templates/help.html:42
 msgid "Voting"
-msgstr ""
+msgstr "Votare"
 
 #: templates/help.html:44
 #, python-format
@@ -5176,6 +5231,8 @@ msgid ""
 "Voting in %(app_name)s helps to select best answers and thank most helpful "
 "users."
 msgstr ""
+"Voturile pentru %(app_name)s ajută la selectarea celor mai bune răspunsuri "
+"și pentru a aprecia cei mai buni utilizatori."
 
 #: templates/help.html:47
 #, python-format
@@ -5183,20 +5240,24 @@ msgid ""
 "Please vote when you find helpful information,\n"
 "    it really helps the %(app_name)s community."
 msgstr ""
+"Te rugăm să votezi când găsești o informație valoroasă, \n"
+"    aceasta ajută în mod real comunitatea %(app_name)s."
 
 #: templates/help.html:51
 msgid "Other topics"
-msgstr ""
+msgstr "Alte subiecte"
 
 #: templates/help.html:53
 msgid ""
 "You can @mention users anywhere in the text to point their attention,\n"
 "    follow users and conversations and report inappropriate content by flagging it."
 msgstr ""
+"Poți @menționa utilizatori oriunde in text pentru a creea o referiță către ei,\n"
+"    urmărește discuții și utilizatori și raportează conținut nepotrivit marcându-l ca atare."
 
 #: templates/help.html:56
 msgid "Enjoy."
-msgstr ""
+msgstr "Folosiți cu plăcere."
 
 #: templates/import_data.html:2 templates/import_data.html.py:4
 msgid "Import StackExchange data"
@@ -5206,7 +5267,9 @@ msgstr "Importă date StackExchange"
 msgid ""
 "<em>Warning:</em> if your database is not empty, please back it up\n"
 "        before attempting this operation."
-msgstr "<em>Avertisment:</em> dacă baza de date nu este goală, creați o copie de siguranță\n        înainte de a începe această operație."
+msgstr ""
+"<em>Avertisment:</em> dacă baza de date nu este goală, creați o copie de siguranță\n"
+"        înainte de a începe această operație."
 
 #: templates/import_data.html:16
 msgid ""
@@ -5214,7 +5277,11 @@ msgid ""
 "        the data import completes. This process may take several minutes.\n"
 "        Please note that feedback will be printed in plain text.\n"
 "        "
-msgstr "Încărcați fișierul dump .zip stackexchange, apoi așteptați până ce\n        se termină importul datelor. Procesul poate dura câteva minute.\n        Rețineți că feedback-ul va fi afișat în text simplu.\n        "
+msgstr ""
+"Încărcați fișierul dump .zip stackexchange, apoi așteptați până ce\n"
+"        se termină importul datelor. Procesul poate dura câteva minute.\n"
+"        Rețineți că feedback-ul va fi afișat în text simplu.\n"
+"        "
 
 #: templates/import_data.html:25
 msgid "Import data"
@@ -5224,44 +5291,46 @@ msgstr "Import date"
 msgid ""
 "In the case you experience any difficulties in using this import tool,\n"
 "        please try importing your data via command line: <code>python manage.py load_stackexchange path/to/your-data.zip</code>"
-msgstr "În cazul în care întâmpinați dificultăți în utilizarea acestei unelte pentru import,\n        încercați să importați datele utilizând linia de comandă : <code>python manage.py load_stackexchange calea/către/datele-dumneavoastră.zip</code>"
+msgstr ""
+"În cazul în care întâmpinați dificultăți în utilizarea acestei unelte pentru import,\n"
+"        încercați să importați datele utilizând linia de comandă : <code>python manage.py load_stackexchange calea/către/datele-dumneavoastră.zip</code>"
 
 #: templates/list_suggested_tags.html:11
 msgid "Tag"
-msgstr ""
+msgstr "Etichetă"
 
 #: templates/list_suggested_tags.html:12
 msgid "Suggested by"
-msgstr ""
+msgstr "Sugerat de"
 
 #: templates/list_suggested_tags.html:13
 msgid "Your decision"
-msgstr ""
+msgstr "Decizia ta"
 
 #: templates/list_suggested_tags.html:14
 msgid "Suggested tag was used for questions"
-msgstr ""
+msgstr "Eticheta sugerată a fost utilizată pentru întrebări"
 
 #: templates/list_suggested_tags.html:34 templates/list_suggested_tags.html:45
 msgid "Accept"
-msgstr ""
+msgstr "Acceptă"
 
 #: templates/list_suggested_tags.html:35 templates/list_suggested_tags.html:46
 msgid "Reject"
-msgstr ""
+msgstr "Respinge"
 
 #: templates/list_suggested_tags.html:38
 msgid "There are no questions with this tag yet"
-msgstr ""
+msgstr "Nu există încă întrebări cu această etichetă"
 
 #: templates/list_suggested_tags.html:62
 #, python-format
 msgid "Apply tag \"%(name)s\" to all above questions"
-msgstr ""
+msgstr "Aplică eticheta \"%(name)s\" la toate întebările de mai sus"
 
 #: templates/list_suggested_tags.html:63
 msgid "Reject tag"
-msgstr ""
+msgstr "Respinge eticheta"
 
 #: templates/list_suggested_tags.html:71 templates/tags/content.html:5
 #: templates/tags/content.html.py:31
@@ -5271,7 +5340,7 @@ msgstr "Nu a fost găsit nimic"
 #: templates/macros.html:5
 #, python-format
 msgid "Share this question on %(site)s"
-msgstr ""
+msgstr "Publică această pe %(site)s"
 
 #: templates/macros.html:44
 msgid "current number of votes"
@@ -5295,14 +5364,16 @@ msgstr "adăugat"
 
 #: templates/macros.html:101
 msgid "this post is marked as community wiki"
-msgstr "acest text este marca drep un wiki al comunității"
+msgstr "această postare este marcata ca wiki al comunității"
 
 #: templates/macros.html:104
 #, python-format
 msgid ""
 "This post is a wiki.\n"
 "        Anyone with karma &gt;%(wiki_min_rep)s is welcome to improve it."
-msgstr "Acesta este o pagină wiki.\n       Oricine cu o reputație mai mare decât %(wiki_min_rep)s este binevenit să o imbunătățească."
+msgstr ""
+"Acesta este o pagină wiki.\n"
+"       Oricine cu o reputație mai mare decât %(wiki_min_rep)s este binevenit să o imbunătățească."
 
 #: templates/macros.html:146
 msgid "updated"
@@ -5310,30 +5381,30 @@ msgstr "actualizat"
 
 #: templates/macros.html:261 templates/macros.html.py:267
 msgid "Leave this group"
-msgstr ""
+msgstr "Părăsește grupul"
 
 #: templates/macros.html:262 templates/macros.html.py:264
 #: templates/macros.html:283
 msgid "Join this group"
-msgstr ""
+msgstr "Alătură-te grupului"
 
 #: templates/macros.html:263 templates/macros.html.py:268
 #: templates/macros.html:278
 msgid "You are a member"
-msgstr ""
+msgstr "Ești membru"
 
 #: templates/macros.html:270
 msgid "Cancel application"
-msgstr ""
+msgstr "Anulează aplicația"
 
 #: templates/macros.html:271 templates/macros.html.py:280
 msgid "Waiting approval"
-msgstr ""
+msgstr "În așteptarea aprobării"
 
 #: templates/macros.html:273 templates/macros.html.py:274
 #: templates/macros.html:285
 msgid "Ask to join"
-msgstr ""
+msgstr "Cere să te alături"
 
 #: templates/macros.html:314
 #, python-format
@@ -5342,7 +5413,7 @@ msgstr "afișează întrebările etichetate „%(tag)s”"
 
 #: templates/macros.html:395
 msgid "Comments"
-msgstr ""
+msgstr "Comentarii"
 
 #: templates/macros.html:430
 msgid "delete this comment"
@@ -5356,22 +5427,22 @@ msgstr "modifică"
 
 #: templates/macros.html:452
 msgid "convert to answer"
-msgstr ""
+msgstr "transformă în răspuns"
 
 #: templates/macros.html:579
 #, python-format
 msgid "follow %(alias)s"
-msgstr ""
+msgstr "abonează-te la %(alias)s"
 
 #: templates/macros.html:582
 #, python-format
 msgid "unfollow %(alias)s"
-msgstr ""
+msgstr "dezaboneaza-te de la %(alias)s"
 
 #: templates/macros.html:583
 #, python-format
 msgid "following %(alias)s"
-msgstr ""
+msgstr "abonat la %(alias)s"
 
 #: templates/macros.html:662 templatetags/extra_tags.py:44
 #, python-format
@@ -5396,7 +5467,7 @@ msgstr "pagiona curentă"
 #: templates/macros.html:739 templates/macros.html.py:746
 #, python-format
 msgid "page %(num)s"
-msgstr ""
+msgstr "pagina %(num)s"
 
 #: templates/macros.html:711 templates/macros.html.py:750
 msgid "next page"
@@ -5411,9 +5482,9 @@ msgstr "răspunsuri pentru %(username)s"
 #, python-format
 msgid "you have %(response_count)s new response"
 msgid_plural "you have %(response_count)s new responses"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "ai %(response_count)s răspuns nou"
+msgstr[1] "ai %(response_count)s răspunsuri noi"
+msgstr[2] "ai %(response_count)s de răspunsuri noi"
 
 #: templates/macros.html:768
 msgid "no new responses yet"
@@ -5440,11 +5511,11 @@ msgstr "Întrebări"
 
 #: templates/question.html:230
 msgid "see more comments"
-msgstr ""
+msgstr "vezi mai multe comentarii"
 
 #: templates/question.html:232 templates/question.html.py:335
 msgid "add a comment"
-msgstr ""
+msgstr "adaugă un comentariu"
 
 #: templates/question.html:245 templates/question/content.html:46
 msgid "Answer Your Own Question"
@@ -5452,11 +5523,11 @@ msgstr "Răspunde propriei întrebări"
 
 #: templates/question.html:250
 msgid "Post Your Answer"
-msgstr ""
+msgstr "Publică Răspunsul Tău"
 
 #: templates/question.html:256 templates/widgets/ask_form.html:65
 msgid "Login/Signup to Post"
-msgstr ""
+msgstr "Trebuie să fii autentificat/înregistrat pentru a posta"
 
 #: templates/question_edit.html:4 templates/question_edit.html.py:9
 msgid "Edit question"
@@ -5464,19 +5535,19 @@ msgstr "Modifică întrebarea"
 
 #: templates/question_edit.html:16
 msgid "Question - in one sentence"
-msgstr ""
+msgstr "Întrebare - intr-o singură propoziție"
 
 #: templates/question_edit.html:23
 msgid "Details"
-msgstr ""
+msgstr "Detalii"
 
 #: templates/question_edit.html:56
 msgid "Change language"
-msgstr ""
+msgstr "Schimbă limba"
 
 #: templates/question_retag.html:3 templates/question_retag.html.py:5
 msgid "Retag question"
-msgstr ""
+msgstr "Reetichetează întrebarea"
 
 #: templates/question_retag.html:21
 msgid "Retag"
@@ -5508,6 +5579,8 @@ msgid ""
 "This question has been closed by \n"
 "    <a href=\"%(closed_by_profile_url)s\">%(username)s</a>\n"
 msgstr ""
+"Această întrebare a fost închisă de către \n"
+"    <a href=\"%(closed_by_profile_url)s\">%(username)s</a>\n"
 
 #: templates/reopen.html:17
 msgid "Close reason:"
@@ -5552,7 +5625,7 @@ msgstr "Abonare"
 
 #: templates/tags.html:17
 msgid "search for tags"
-msgstr ""
+msgstr "caută după etichete"
 
 #: templates/users.html:8 templates/users.html.py:18
 #: templates/tags/list_bulk_tag_subscription.html:13
@@ -5562,16 +5635,16 @@ msgstr "Utilizatori"
 #: templates/users.html:16
 #, python-format
 msgid "Users in group %(name)s"
-msgstr ""
+msgstr "Utilizatori în grup %(name)s"
 
 #: templates/users.html:24
 msgid "Select/Sort by &raquo;"
-msgstr ""
+msgstr "Selectează/Sortează după &raquo;"
 
 #: templates/users.html:29
 #, python-format
 msgid "people in group %(name)s"
-msgstr ""
+msgstr "persoane în grupul %(name)s"
 
 #: templates/users.html:33 templates/main_page/tab_bar.html:17
 #: templates/tags/header.html:14
@@ -5580,7 +5653,7 @@ msgstr "Ordonează după &raquo;"
 
 #: templates/users.html:40
 msgid "see people with the highest reputation"
-msgstr ""
+msgstr "vezi persoanele cu cea mai mare reputație"
 
 #: templates/users.html:41 templates/user_profile/user_info.html:25
 #: templates/user_profile/user_reputation.html:5
@@ -5590,7 +5663,7 @@ msgstr "reputație"
 
 #: templates/users.html:47
 msgid "see people who joined most recently"
-msgstr ""
+msgstr "vezi persoanele care s-au alăturat cel mai recent"
 
 #: templates/users.html:48
 msgid "recent"
@@ -5598,11 +5671,11 @@ msgstr "recent"
 
 #: templates/users.html:53
 msgid "see people who joined the site first"
-msgstr ""
+msgstr "vezi persoanele care s-au alăturat site-ului cel mai devreme"
 
 #: templates/users.html:59
 msgid "see people sorted by name"
-msgstr ""
+msgstr "vezi persoanele ordonate după nume"
 
 #: templates/users.html:60
 msgid "by username"
@@ -5611,7 +5684,7 @@ msgstr "după nume de utilizator"
 #: templates/users.html:66
 #, python-format
 msgid "users matching query %(search_query)s:"
-msgstr ""
+msgstr "utilizatori care se potrivesc termenilor de căutare"
 
 #: templates/users.html:69
 msgid "Nothing found."
@@ -5619,22 +5692,22 @@ msgstr "Nu s-a găsit nimic."
 
 #: templates/authopenid/authopenid_macros.html:63
 msgid "Please enter your <span>user name</span>, then sign in"
-msgstr ""
+msgstr "Te rog să introduci <span>numele tău de utilizator</span>, și apoi să te autentifici"
 
 #: templates/authopenid/authopenid_macros.html:64
 #: templates/authopenid/widget_signin.html:102
 msgid "(or select another login method above)"
-msgstr ""
+msgstr "(sau selectează o altă modalitate de login de mai sus)"
 
 #: templates/authopenid/authopenid_macros.html:66
 #: templates/authopenid/signin.html:115
 #: templates/authopenid/widget_signin.html:118
 msgid "Sign in"
-msgstr ""
+msgstr "Autentificare"
 
 #: templates/authopenid/changeemail.html:2
 msgid "Change Email"
-msgstr ""
+msgstr "Scchimbă emailul"
 
 #: templates/authopenid/changeemail.html:6
 msgid "Validate email"
@@ -5663,6 +5736,11 @@ msgid ""
 "updates</strong> - then will be notified about changes <strong>once a day</strong>\n"
 "or less frequently."
 msgstr ""
+"<span class=\\\"big strong\\\">Mulțumim pentru că ai verificat emailul!!</span> Acum \n"
+"poți să <strong>întrebi</strong> și să <strong>răspunzi</strong>. Deasemenea dacă \n"
+"găsești o întrebare interesantă poți să <strong>te abonezi pentru \n"
+"actualizări</strong> - apoi vei fi notificat despre schimbări <strong>odată pe zi</strong>\n"
+"sau mai rar."
 
 #: templates/authopenid/complete.html:21
 msgid "Registration"
@@ -5670,11 +5748,11 @@ msgstr "Înregistrare"
 
 #: templates/authopenid/complete.html:23
 msgid "User registration"
-msgstr ""
+msgstr "Înregistrare utilizator"
 
 #: templates/authopenid/complete.html:47
 msgid "<strong>Screen Name</strong> (<i>will be shown to others</i>)"
-msgstr ""
+msgstr "<strong>Nume de scenă</strong> (<i>va fi vizibil pentru oricine</i>)"
 
 #: templates/authopenid/complete.html:56
 msgid ""
@@ -5682,16 +5760,19 @@ msgid ""
 "anyone, must be valid</i>)\n"
 "                    "
 msgstr ""
+"<strong>Adresa de email</strong> (<i><strong>nu va fi</strong> vizbilă \n"
+"pentru nimeni, trebuie să fie validă</i>)\n"
+"                    "
 
 #: templates/authopenid/complete.html:71
 #: templates/authopenid/signup_with_password.html:5
 #: templates/authopenid/signup_with_password.html:45
 msgid "Signup"
-msgstr ""
+msgstr "Înregistrare"
 
 #: templates/authopenid/confirm_email.txt:1
 msgid "Thank you for registering at our Q&A forum!"
-msgstr ""
+msgstr "Mulțumim pentru înregistrarea pe site-ul nostru de întrebări și răspunsuri."
 
 #: templates/authopenid/confirm_email.txt:3
 msgid "Your account details are:"
@@ -5715,22 +5796,24 @@ msgid ""
 "Sincerely,\n"
 "Q&A Forum Administrator"
 msgstr ""
+"Cu stimă,\n"
+"Q&A Administrator"
 
 #: templates/authopenid/email_validation.html:2
 #: templates/authopenid/email_validation.html:3
 #, python-format
 msgid "Greetings from the %(site_name)s"
-msgstr ""
+msgstr "Salutări de la %(site_name)s"
 
 #: templates/authopenid/email_validation.html:7
 #: templates/authopenid/email_validation.txt:3
 msgid "To make use of the Forum, please follow the link below:"
-msgstr ""
+msgstr "Pentru a putea utiliza forumul, te rugăm urmează linkul de mai jos."
 
 #: templates/authopenid/email_validation.html:11
 #: templates/authopenid/email_validation.txt:7
 msgid "Following the link above will help us verify your email address."
-msgstr ""
+msgstr "Urmând linkul de mai jos ne vei ajuta să verificăm adresa de email."
 
 #: templates/authopenid/email_validation.html:13
 #: templates/authopenid/email_validation.txt:9
@@ -5739,10 +5822,13 @@ msgid ""
 "no further action is needed. Just ignore this email, we apologize\n"
 "for any inconvenience"
 msgstr ""
+"În cazul în care consideri ca acest email a fost trimis din greșeală - \n"
+"nu este necesară nici o acțiune ulterioară. Doar ignoră acest mesaj, ne cerem scuze\n"
+"pentru orice inconveniente."
 
 #: templates/authopenid/email_validation.txt:1
 msgid "Greetings from the Q&A forum"
-msgstr ""
+msgstr "Salutari din partea forumului de Întrebări și Răspunsuri"
 
 #: templates/authopenid/logout.html:3
 msgid "Logout"
@@ -5750,18 +5836,20 @@ msgstr "Ieșire"
 
 #: templates/authopenid/logout.html:5
 msgid "You have successfully logged out"
-msgstr ""
+msgstr "Te-ai deautentificat cu succes"
 
 #: templates/authopenid/logout.html:7
 msgid ""
 "However, you still may be logged in to your OpenID provider. Please logout "
 "of your provider if you wish to do so."
 msgstr ""
+"Cu toate acestea, te poți încă autentifica cu furnizorul tau de OpenID. Te rugăm să te deautentifici "
+"de la furnizor dacă dorești."
 
 #: templates/authopenid/signin.html:5
 #: templates/authopenid/widget_signin.html:5
 msgid "User login"
-msgstr "Autentificare autilizator"
+msgstr "Autentificare utilizator"
 
 #: templates/authopenid/signin.html:15
 #: templates/authopenid/widget_signin.html:19
@@ -5771,6 +5859,9 @@ msgid ""
 "        Your answer to %(title)s %(summary)s will be posted once you log in\n"
 "        "
 msgstr ""
+"\n"
+"        Răspunsul tău la %(title)s %(summary)s va fi postat imediat după ce te vei autentifica.\n"
+"        "
 
 #: templates/authopenid/signin.html:22
 #: templates/authopenid/widget_signin.html:26
@@ -5780,6 +5871,9 @@ msgid ""
 "        %(title)s %(summary)s will be posted once you log in\n"
 "        "
 msgstr ""
+"Întrebarea ta\n"
+"        %(title)s %(summary)s va fi postată imediat după ce te vei autentifica.\n"
+"        "
 
 #: templates/authopenid/signin.html:31
 #: templates/authopenid/widget_signin.html:36
@@ -5788,6 +5882,9 @@ msgid ""
 "or add a new one. Please click any of the icons below to check/change or add"
 " new login methods."
 msgstr ""
+"Este bine să te asiguri că metodele tale de login încă funcționează, "
+"sau să adaugi unele noi. Te rugăm să dai click pe una din inconițele de mai jos pentru a verifica, schimba sau adăuga"
+" metode noi de login."
 
 #: templates/authopenid/signin.html:33
 #: templates/authopenid/widget_signin.html:38
@@ -5795,6 +5892,8 @@ msgid ""
 "Please add a more permanent login method by clicking one of the icons below,"
 " to avoid logging in via email each time."
 msgstr ""
+"Te rugăm să adaugi o metodă de login mai persistentă dând click pe una dintre iconițele de mai jos,"
+" pentru a evita autentificarea cu email de fiecare dată."
 
 #: templates/authopenid/signin.html:37
 #: templates/authopenid/widget_signin.html:42
@@ -5802,6 +5901,8 @@ msgid ""
 "Click on one of the icons below to add a new login method or re-validate an "
 "existing one."
 msgstr ""
+"Click pe una dintre iconițele de mai jos pentru a adăuga o nouă metodă de autentificare sau pentru a revalida "
+"o metodă existentă."
 
 #: templates/authopenid/signin.html:39
 #: templates/authopenid/widget_signin.html:44
@@ -5809,6 +5910,8 @@ msgid ""
 "You don't have a method to log in right now, please add one or more by "
 "clicking any of the icons below."
 msgstr ""
+"Nu ai o metodă de autentificare în acest moment, te rugăm să adaugi una sau mai multe făcând "
+"click pe oricare dintre iconițele de mai jos."
 
 #: templates/authopenid/signin.html:42
 #: templates/authopenid/widget_signin.html:47
@@ -5816,25 +5919,27 @@ msgid ""
 "Please check your email and visit the enclosed link to re-connect to your "
 "account"
 msgstr ""
+"Te rugăm să verifici emailul tau și să vizitezi linkul pentru a reconecta "
+"contul tău"
 
 #: templates/authopenid/signin.html:90
 msgid "or enter your <span>user name and password</span>"
-msgstr ""
+msgstr "sau introdu <span>numele de utilizator și parola</span> "
 
 #: templates/authopenid/signin.html:94
 #: templates/authopenid/widget_signin.html:98
 msgid "Please, sign in"
-msgstr ""
+msgstr "Te rugăm să te autentifici"
 
 #: templates/authopenid/signin.html:101
 #: templates/authopenid/widget_signin.html:105
 msgid "Login failed, please try again"
-msgstr ""
+msgstr "Autentificare eșuată, te rugăm să mai încerci."
 
 #: templates/authopenid/signin.html:106
 #: templates/authopenid/widget_signin.html:109
 msgid "Login or email"
-msgstr ""
+msgstr "Nume de utilizator sau email"
 
 #: templates/authopenid/signin.html:110
 #: templates/authopenid/widget_signin.html:113 utils/forms.py:264
@@ -5844,7 +5949,7 @@ msgstr "Parolă"
 #: templates/authopenid/signin.html:122
 #: templates/authopenid/widget_signin.html:125
 msgid "To change your password - please enter the new one twice, then submit"
-msgstr ""
+msgstr "Pentru a schimba parola - te rugăm sa o introduci pe cea nouă de două ori, și apoi să trimiți formularul"
 
 #: templates/authopenid/signin.html:126
 #: templates/authopenid/widget_signin.html:129
@@ -5865,22 +5970,22 @@ msgstr "Schimbă parola"
 #: templates/authopenid/signin.html:159
 #: templates/authopenid/widget_signin.html:162
 msgid "Here are your current login methods"
-msgstr ""
+msgstr "Acestea sunt metodele curente de autentificare"
 
 #: templates/authopenid/signin.html:163
 #: templates/authopenid/widget_signin.html:166
 msgid "provider"
-msgstr ""
+msgstr "furnizor"
 
 #: templates/authopenid/signin.html:164
 #: templates/authopenid/widget_signin.html:167
 msgid "last used"
-msgstr ""
+msgstr "utilizat ultima dată"
 
 #: templates/authopenid/signin.html:165
 #: templates/authopenid/widget_signin.html:168
 msgid "delete, if you like"
-msgstr ""
+msgstr "șterge, dacă dorești"
 
 #: templates/authopenid/signin.html:179
 #: templates/authopenid/widget_signin.html:182
@@ -5892,49 +5997,49 @@ msgstr "șterge"
 #: templates/authopenid/signin.html:181
 #: templates/authopenid/widget_signin.html:184
 msgid "cannot be deleted"
-msgstr ""
+msgstr "nu poate fi șters"
 
 #: templates/authopenid/signin.html:194
 #: templates/authopenid/widget_signin.html:197
 msgid "Still have trouble signing in?"
-msgstr ""
+msgstr "Încă ai probleme să te autentifici?"
 
 #: templates/authopenid/signin.html:199
 #: templates/authopenid/widget_signin.html:202
 msgid "Please, enter your email address below and obtain a new key"
-msgstr ""
+msgstr "Te rugăm să introduci adresa ta de email dedesupt pentru a obține o nouă cheie"
 
 #: templates/authopenid/signin.html:201
 #: templates/authopenid/widget_signin.html:204
 msgid "Please, enter your email address below to recover your account"
-msgstr ""
+msgstr "Te rugăm să introduci adresa ta de email dedesupt pentru a-ți recupera contul"
 
 #: templates/authopenid/signin.html:204
 #: templates/authopenid/widget_signin.html:207
 msgid "recover your account via email"
-msgstr ""
+msgstr "recuperează-ți contul prin email"
 
 #: templates/authopenid/signin.html:215
 #: templates/authopenid/widget_signin.html:217
 msgid "Send a new recovery key"
-msgstr ""
+msgstr "Trimite o nouă cheie de recuperare"
 
 #: templates/authopenid/signin.html:217
 #: templates/authopenid/widget_signin.html:219
 msgid "Recover your account via email"
-msgstr ""
+msgstr "Recuperează-ți contul prin email"
 
 #: templates/authopenid/signup_with_password.html:11
 msgid "Please register by clicking on any of the icons below"
-msgstr ""
+msgstr "Te rugăm să te înregistrezi făcând clck pe una dintre icoanele de mai jos"
 
 #: templates/authopenid/signup_with_password.html:24
 msgid "or create a new user name and password here"
-msgstr ""
+msgstr "sau creează un nou utilizator cu parolă aici"
 
 #: templates/authopenid/signup_with_password.html:26
 msgid "Create login name and password"
-msgstr ""
+msgstr "Creează un nume de login și o parolă"
 
 #: templates/authopenid/signup_with_password.html:27
 msgid ""
@@ -5944,12 +6049,19 @@ msgid ""
 "simply reuse your external login (e.g. Gmail or AOL) without ever sharing \n"
 "your login details with anyone and having to remember yet another password."
 msgstr ""
+"<span class='strong big'>Dacă preferi, creează numele tău de login și parola \n"
+"aici. Totuși </span>, te rugăm să iei în considerare faptul că suportăm deasemenea \n"
+"<strong>OpenID</strong>. Cu ajutorul <strong>OpenID</strong> poți să reutilizezi \n"
+"foarte simplu conturile tale existente (de exemplu: Gmail or Yahoo) fără să faci publice \n"
+"detaliile tale de login. În acest mod nu mai trebuie să îți amintești încă o parolă."
 
 #: templates/authopenid/signup_with_password.html:42
 msgid ""
 "Please read and type in the two words below to help us prevent automated "
 "account creation."
 msgstr ""
+"Te rugăm să citești și să scrii mai jos cele două cuvinte din imagine pentru a ne ajuta să prevenim "
+"creearea de conturi false."
 
 #: templates/authopenid/signup_with_password.html:47
 msgid "or"
@@ -5957,22 +6069,24 @@ msgstr "sau"
 
 #: templates/authopenid/signup_with_password.html:48
 msgid "return to OpenID login"
-msgstr ""
+msgstr "înapoi la autentificarea OpenID"
 
 #: templates/authopenid/verify_email.html:2
 #: templates/authopenid/verify_email.html:4
 msgid "Confirm email address"
-msgstr ""
+msgstr "Confirmă adresa de email"
 
 #: templates/authopenid/verify_email.html:6
 msgid ""
 "Validation email sent. Please find it and follow the enclosed link.<br/>\n"
 "        If the link doesn't work - enter the code below:"
 msgstr ""
+"Emailul de validare a fost trimis. Te rugăm să îl deschizi și să urmezi linkul din el.<br/>\n"
+"        Dacă linkul nu funcționează - introdu codul în caseta de mai jos: "
 
 #: templates/authopenid/verify_email.html:11
 msgid "Confirm email"
-msgstr ""
+msgstr "Confirmă adresa de email"
 
 #: templates/authopenid/widget_signin.html:33
 msgid ""
@@ -5980,38 +6094,41 @@ msgid ""
 " technology. Your external service password always stays confidential and "
 "you don't have to rememeber or create another one."
 msgstr ""
+"Alege serviciul tău favorit de mai jos pentru a te autentifica securizat cu OpenID sau tehnologii"
+" similare. Parola serviciului tau extern nu ajunge niciodată la noi și "
+"în acest fel nu trebuie să îți mai reamintești încă o parolă."
 
 #: templates/authopenid/widget_signin.html:94
 msgid "or enter your <span>user name and password</span>, then sign in"
-msgstr ""
+msgstr "sau introdu <span>numele de utilizator și parola</span>, apoi autentifică-te"
 
 #: templates/avatar/add.html:3
 msgid "add avatar"
-msgstr ""
+msgstr "adaugă avatar"
 
 #: templates/avatar/add.html:5
 msgid "Change avatar"
-msgstr ""
+msgstr "Schimbă avatarul"
 
 #: templates/avatar/add.html:6 templates/avatar/change.html:7
 msgid "Your current avatar: "
-msgstr ""
+msgstr "Avatarul tău curent"
 
 #: templates/avatar/add.html:9 templates/avatar/change.html:11
 msgid "You haven't uploaded an avatar yet. Please upload one now."
-msgstr ""
+msgstr "Nu ai încărcat niciun avatar încă. Te rugăm să încarci unul acum."
 
 #: templates/avatar/add.html:13
 msgid "Upload New Image"
-msgstr ""
+msgstr "Încarcă o nouă imagine"
 
 #: templates/avatar/change.html:4
 msgid "change avatar"
-msgstr ""
+msgstr "schimbă avatarul"
 
 #: templates/avatar/change.html:17
 msgid "Choose new Default"
-msgstr ""
+msgstr "Alege o nouă valoare implicită"
 
 #: templates/avatar/change.html:22
 msgid "Upload"
@@ -6023,7 +6140,7 @@ msgstr "șterge avatar"
 
 #: templates/avatar/confirm_delete.html:4
 msgid "Please select the avatars that you would like to delete."
-msgstr ""
+msgstr "Te rugăm să selectezi avatarele pe care dorești să le ștergi"
 
 #: templates/avatar/confirm_delete.html:6
 #, python-format
@@ -6031,37 +6148,45 @@ msgid ""
 "You have no avatars to delete. Please <a "
 "href=\"%(avatar_change_url)s\">upload one</a> now."
 msgstr ""
+"Nu ai avatare pe care să le ștergi. Te rugăm <a "
+"href=\"%(avatar_change_url)s\">încarcă unul</a> acum."
 
 #: templates/avatar/confirm_delete.html:12
 msgid "Delete These"
-msgstr ""
+msgstr "Sterge aceste"
 
 #: templates/email/ask_for_signature.html:4
 #, python-format
 msgid "%(user)s, please reply to this message."
-msgstr ""
+msgstr "%(user)s, te rugăm să răspunzi la acest mesaj."
 
 #: templates/email/ask_for_signature.html:9
 msgid ""
 "Your post could not be published, because we could not detect signature in "
 "your email."
 msgstr ""
+"Postarea ta nu a putut fi încă publicată, deoarece nu putem găsi semnătura în emailul "
+"de la tine."
 
 #: templates/email/ask_for_signature.html:10
 msgid ""
 "This happened either because this is your first post or you have changed "
 "your email signature."
 msgstr ""
+"Aceasta s-a întâmplat pentru că este prima ta postare sauu pentru ca ți-ai schimbat "
+"semnătura emailului."
 
 #: templates/email/ask_for_signature.html:11
 msgid "Please make a simple response, without editing this message."
-msgstr ""
+msgstr "Te rugăm să alcătuiești un răspuns simplu, fără să modifici acest mesaj."
 
 #: templates/email/ask_for_signature.html:12
 msgid ""
 "We will then attempt to detect the signature in your response and you should"
 " be able to post."
 msgstr ""
+"Vom încerca apoi sa detectăm semnătura în răspunsul tău iar tu ar trebui să"
+" poți posta."
 
 #: templates/email/change_settings_info.html:4
 #, python-format
@@ -6069,6 +6194,8 @@ msgid ""
 "To change frequency, language and content of these alerts, please visit <a "
 "href=\"%(url)s\">your user profile</a>."
 msgstr ""
+"Pentru a schimba frecvența, limba și conținutul acestor alerte, te rugăm să vizitezi <a "
+"href=\"%(url)s\">profilul tău</a>."
 
 #: templates/email/change_settings_info.html:6
 #, python-format
@@ -6076,6 +6203,8 @@ msgid ""
 "To change freqency and content of these alerts, please visit <a "
 "href=\"%(url)s\">your user profile</a>."
 msgstr ""
+"Pentru a schimba frecvența și conținutul acestor alerte, te rugăm să vizitezi <a "
+"href=\"%(url)s\">profilul tău</a>."
 
 #: templates/email/change_settings_info.html:10
 #, python-format
@@ -6084,53 +6213,59 @@ msgid ""
 " the forum administrator at <a "
 "href=\"mailto:%(admin_email)s\">%(admin_email)s</a>."
 msgstr ""
+"În cazul în care consideri ca acest mesaj a fost trimis din greșeală, te rugăm să raportezi întamplarea"
+" administratorului la adresa <a "
+"href=\"mailto:%(admin_email)s\">%(admin_email)s</a>."
 
 #: templates/email/delayed_email_alert.html:2
 #, python-format
 msgid "Dear %(name)s,"
-msgstr ""
+msgstr "Stimate %(name)s,"
 
 #: templates/email/delayed_email_alert.html:3
 #, python-format
 msgid "The following question has been updated %(site_name)s:"
 msgid_plural ""
 "The following %(num)s questions have been updated on %(site_name)s:"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Următoarea întrebare a fost actualizată pe %(site_name)s"
+msgstr[1] "Următoarele %(num)s întrebări au fost actualizate pe %(site_name)s"
+msgstr[2] "Următoarele %(num)s de întrebări au fost actualizate pe %(site_name)s"
 
 #: templates/email/feedback_email.txt:2
 #, python-format
 msgid ""
 "\n"
 "Hello, this is a %(site_title)s forum feedback message.\n"
-msgstr "\nSalut, acesta este un mesaj de sugestii pentru %(site_title)s.\n"
+msgstr ""
+"\n"
+"Salut, acesta este un mesaj de sugestii pentru %(site_title)s.\n"
 
 #: templates/email/footer.html:1
 #, python-format
 msgid "Sincerely,<br>%(site_name)s Administrator"
-msgstr ""
+msgstr "Cu stimă,<br>%(site_name)s Administrator"
 
 #: templates/email/insufficient_rep_to_post_by_email.html:10
 #, python-format
 msgid "%(username)s, your question could not be posted by email just yet."
-msgstr ""
+msgstr "%(username)s, întrebarea ta prin email nu a putut fi postată încă."
 
 #: templates/email/insufficient_rep_to_post_by_email.html:14
 #, python-format
 msgid ""
 "To make posts by email, you need to receive about %(min_upvotes)s upvotes."
 msgstr ""
+"Pentru a face postări prin email trebuie să câștigi aproximativ %(min_upvotes)s voturi pozitive."
 
 #: templates/email/insufficient_rep_to_post_by_email.html:15
 #, python-format
 msgid "At this time, please post your question at %(link)s"
-msgstr ""
+msgstr "La acest moment te rugăm să postezi întrebarea ta la %(link)s"
 
 #: templates/email/macros.html:19
 #, python-format
 msgid "Question by %(author)s:"
-msgstr ""
+msgstr "întrebare pusă de %(author)s:"
 
 #: templates/email/macros.html:21
 #, python-format
@@ -6139,19 +6274,22 @@ msgid ""
 "                                In reply to %(author)s's question:\n"
 "                            "
 msgstr ""
+"\n"
+"                                Răspuns la întrebarea pusă de %(author)s:\n"
+"                            "
 
 #: templates/email/macros.html:26
 msgid "Question :"
-msgstr ""
+msgstr "Întrebare :"
 
 #: templates/email/macros.html:33
 #, python-format
 msgid "Asked by %(author)s:"
-msgstr ""
+msgstr "Întrebare pusă de %(author)s:"
 
 #: templates/email/macros.html:40
 msgid "Tags:"
-msgstr ""
+msgstr "Etichete:"
 
 #: templates/email/macros.html:48
 #, python-format
@@ -6160,6 +6298,9 @@ msgid ""
 "                                %(author)s's answer:\n"
 "                            "
 msgstr ""
+"\n"
+"                                Răspunsul lui %(author)s:\n"
+"                            "
 
 #: templates/email/macros.html:52
 #, python-format
@@ -6168,11 +6309,14 @@ msgid ""
 "                                In reply to %(author)s's answer:\n"
 "                            "
 msgstr ""
+"\n"
+"                                Ca reacție la răspunsul lui %(author)s:\n"
+"
 
 #: templates/email/macros.html:57
 #, python-format
 msgid "Answered by %(author)s:"
-msgstr ""
+msgstr "Raspuns adăugat de %(author)s:"
 
 #: templates/email/macros.html:64
 #, python-format
@@ -6181,6 +6325,9 @@ msgid ""
 "                                %(author)s's comment:\n"
 "                            "
 msgstr ""
+"\n"
+"                                comentariul lui %(author)s:\n"
+"                            "
 
 #: templates/email/macros.html:68
 #, python-format
@@ -6189,6 +6336,9 @@ msgid ""
 "                                In reply to %(author)s's comment:\n"
 "                            "
 msgstr ""
+"\n"
+"                                Răspuns la comentariul lui %(author)s:\n"
+"                            "
 
 #: templates/email/macros.html:73
 #, python-format
@@ -6197,10 +6347,13 @@ msgid ""
 "                            Commented by %(author)s:\n"
 "                        "
 msgstr ""
+"\n"
+"                            Comentat de către %(author)s:\n"
+"                        "
 
 #: templates/email/notify_author_about_approved_post.html:21
 msgid "Below is a copy of your post:"
-msgstr ""
+msgstr "Mai jos este o copie a postării tale"
 
 #: templates/email/post_as_subthread.html:8
 #, python-format
@@ -6212,26 +6365,28 @@ msgid_plural ""
 "\n"
 "                %(count)s comments:\n"
 "            "
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(count)s comentariu"
+msgstr[1] "%(count)s comentarii"
+msgstr[2] "%(count)s de comentarii"
 
 #: templates/email/re_welcome_lamson_on.html:2
 #: templates/email/re_welcome_lamson_on.html:3
 #, python-format
 msgid "Great, you are ready to use %(site_name)s!"
-msgstr ""
+msgstr "Minunat, ești pregătit să utilizezi %(site_name)s!"
 
 #: templates/email/re_welcome_lamson_on.html:7
 #, python-format
 msgid "You can post questions by emailing them at %(ask_address)s."
-msgstr ""
+msgstr "Poți să postezi trimițând mail la %(ask_address)s."
 
 #: templates/email/re_welcome_lamson_on.html:8
 msgid ""
 "When you receive update notifications, you will be able to respond to them, "
 "also by email."
 msgstr ""
+"Când primești notificări prin email, vei putea să le răspunzi deasemenea, "
+"tot prin email."
 
 #: templates/email/re_welcome_lamson_on.html:9
 #, python-format
@@ -6239,6 +6394,8 @@ msgid ""
 "Of course, you can always visit the %(site_name)s at <a "
 "href=\"%(site_url)s\">%(site_url)s</a>."
 msgstr ""
+"Bineînțeles, poți vizita oricând %(site_name)s la adresa <a "
+"href=\"%(site_url)s\">%(site_url)s</a>."
 
 #: templates/email/re_welcome_lamson_on.html:11
 #: templates/email/welcome_lamson_off.html:10
@@ -6247,24 +6404,28 @@ msgid ""
 "Please visit %(site_name)s at <a href=\"%(site_url)s\">%(site_url)s</a>, we "
 "look forward to your posts."
 msgstr ""
+"Te rugăm vizitează %(site_name)s la <a href=\"%(site_url)s\">%(site_url)s</a>, așteptăm "
+"postările tale."
 
 #: templates/email/rejected_post.html:2 templates/email/rejected_post.html:3
 msgid " Your post was rejected. "
-msgstr ""
+msgstr " Postarea ta a fost respinsă. "
 
 #: templates/email/rejected_post.html:5
 msgid "Your post (copied in the end), was rejected for the following reason:"
-msgstr ""
+msgstr "Postarea ta (copiată la sfârșit) a fost respinsă din următorul motiv: "
 
 #: templates/email/rejected_post.html:7
 msgid "Here is your original post"
-msgstr ""
+msgstr "Aici este postarea ta originală"
 
 #: templates/email/reply_by_email_error.html:1
 msgid ""
 "\n"
 "<p>The system was unable to process your message successfully, the reason being:<p>\n"
 msgstr ""
+"\n"
+"<p>Sistemul nu a putut să proceseze cu succes mesajut tău, din următorul motiv:<p>\n"
 
 #: templates/email/welcome_lamson_off.html:6
 #: templates/email/welcome_lamson_off.html:7
@@ -6272,7 +6433,7 @@ msgstr ""
 #: templates/email/welcome_lamson_on.html:4
 #, python-format
 msgid "Welcome to %(site_name)s!"
-msgstr ""
+msgstr "Bine ai venit la %(site_name)s!"
 
 #: templates/email/welcome_lamson_on.html:11
 msgid ""
@@ -6280,6 +6441,9 @@ msgid ""
 "need this to determine your email signature and that the email address is "
 "valid and was typed correctly."
 msgstr ""
+"Important: <em>Te rugăm să răspunzi</em> la acest mesaj, fără să îl modifici deoarece "
+"trebuie să determinăm semnătura emailului tău și că adresa de email este validă "
+"și a fost tipărită corect."
 
 #: templates/email/welcome_lamson_on.html:14
 #, python-format
@@ -6287,10 +6451,12 @@ msgid ""
 "Until we receive the response from you, you will not be able ask or answer "
 "questions on %(site_name)s by email."
 msgstr ""
+"Până când primim un răspuns de la tine, nu vei putea să întrebi sau să răspunzi "
+"la întrebări pe %(site_name)s prin email."
 
 #: templates/embed/list_widgets.html:44
 msgid "How to use?"
-msgstr ""
+msgstr "Cum utilizez?"
 
 #: templates/embed/list_widgets.html:45
 msgid ""
@@ -6298,11 +6464,14 @@ msgid ""
 "    Just copy the &lt;script&gt; tag provided and paste it in the site where you wan to put it.\n"
 "    "
 msgstr ""
+"\n"
+"    Copiază eticheta &lt;script&gt; oferită si lipește-o în site-ul în care vrei să o adaugi.\n"
+"    "
 
 #: templates/embed/widget_form.html:3 templates/embed/widget_form.html.py:5
 #, python-format
 msgid "%(action)s an %(widget_name)s widget"
-msgstr ""
+msgstr "%(action)s un %(widget_name)s widget"
 
 #: templates/embed/widget_form.html:14
 #: templates/user_profile/user_moderate.html:20
@@ -6311,12 +6480,13 @@ msgstr "Salvează"
 
 #: templates/embed/widgets.html:3 templates/embed/widgets.html.py:5
 msgid "Widgets"
-msgstr ""
+msgstr "Widgeturi"
 
 #: templates/embed/widgets.html:11
 msgid ""
 "Create and embed widgets into your sites, here a list of available widgets."
 msgstr ""
+"Creează și adaugă widgeturi la site-urile tale, mai jos ai o listă cu widgeturi disponibile."
 
 #: templates/embed/widgets.html:16
 msgid "Ask a question"
@@ -6324,40 +6494,42 @@ msgstr "Puneți o întrebare"
 
 #: templates/embed/widgets.html:17 templates/embed/widgets.html.py:26
 msgid "create"
-msgstr ""
+msgstr "creează"
 
 #: templates/embed/widgets.html:20 templates/embed/widgets.html.py:29
 msgid "view list"
-msgstr ""
+msgstr "vizualizează lista"
 
 #: templates/embed/widgets.html:25
 msgid "List of questions"
-msgstr ""
+msgstr "Listă de întrebări"
 
 #: templates/group_messaging/email_alert.html:7
 #, python-format
 msgid "%(author)s wrote:"
-msgstr ""
+msgstr "%(author)s a scris:"
 
 #: templates/group_messaging/email_alert.html:11
 msgid ""
 "To reply please <a class=\"thread-link\" href=\"THREAD_URL_HOLE\">visit your"
 " message inbox</a>"
 msgstr ""
+"Pentru a răspunde te rugăm <a class=\"thread-link\" href=\"THREAD_URL_HOLE\">vizitează-ți"
+" căsuța poștală</a>"
 
 #: templates/group_messaging/home.html:7
 #: templates/group_messaging/home_thread_details.html:7
 msgid "compose"
-msgstr ""
+msgstr "compune"
 
 #: templates/group_messaging/macros.html:5
 #, python-format
 msgid "You wrote on %(date)s:"
-msgstr ""
+msgstr "Ai scris în %(date)s:"
 
 #: templates/group_messaging/senders_list.html:3
 msgid "Messages by sender:"
-msgstr ""
+msgstr "Mesaje după expeditor:"
 
 #: templates/group_messaging/senders_list.html:5
 #: templates/user_inbox/base.html:6 templates/user_profile/user_tabs.html:12
@@ -6366,15 +6538,15 @@ msgstr "inbox"
 
 #: templates/group_messaging/senders_list.html:9
 msgid "sent"
-msgstr ""
+msgstr "trimis"
 
 #: templates/group_messaging/senders_list.html:16
 msgid "trash"
-msgstr ""
+msgstr "gunoi"
 
 #: templates/group_messaging/threads_list.html:25
 msgid "there are no messages yet..."
-msgstr ""
+msgstr "nu există mesaje încă"
 
 #: templates/livesettings/_admin_site_views.html:4
 msgid "Sites"
@@ -6382,7 +6554,7 @@ msgstr "Pagini web"
 
 #: templates/livesettings/group_settings.html:4
 msgid "Settings"
-msgstr ""
+msgstr "Setări"
 
 #: templates/livesettings/group_settings.html:9
 #: templates/livesettings/site_settings.html:51
@@ -6439,18 +6611,18 @@ msgstr "Restrânge tot"
 #, python-format
 msgid "%(q_num)s question"
 msgid_plural "%(q_num)s questions"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(q_num)s întrebare"
+msgstr[1] "%(q_num)s întrebări"
+msgstr[2] "%(q_num)s de întrebări"
 
 #: templates/main_page/headline.html:6
 #, python-format
 msgid "with %(author_name)s's contributions"
-msgstr ""
+msgstr "prin contribuția lui %(author_name)s"
 
 #: templates/main_page/headline.html:11
 msgid "Tagged"
-msgstr ""
+msgstr "Etichetat"
 
 #: templates/main_page/headline.html:22
 msgid "Search tips:"
@@ -6458,7 +6630,7 @@ msgstr "Indicii de căutare:"
 
 #: templates/main_page/headline.html:25
 msgid "reset author"
-msgstr ""
+msgstr "resetează autorul"
 
 #: templates/main_page/headline.html:27 templates/main_page/headline.html:30
 #: templates/main_page/nothing_found.html:18
@@ -6476,7 +6648,7 @@ msgstr "începeți din nou"
 
 #: templates/main_page/headline.html:36
 msgid " - to expand, or dig in by adding more tags and revising the query."
-msgstr " pentru a lărgi sau a filtra prin adăugarea mai multor etichete sau a textului de căutat."
+msgstr " - pentru a lărgi sau a filtra prin adăugarea mai multor etichete sau a textului de căutat."
 
 #: templates/main_page/headline.html:39
 msgid "Search tip:"
@@ -6488,15 +6660,15 @@ msgstr "adăugarea de etichete și a mai multe cuvinte cheie pentru căutare"
 
 #: templates/main_page/nothing_found.html:4
 msgid "There are no unanswered questions here"
-msgstr ""
+msgstr "Nu există întrebări care nu au răspuns aici"
 
 #: templates/main_page/nothing_found.html:7
 msgid "No questions here. "
-msgstr ""
+msgstr "Nu există întrebări aici. "
 
 #: templates/main_page/nothing_found.html:8
 msgid "Please follow some questions or follow some users."
-msgstr ""
+msgstr "Te rugăm să te abonezi la câteva întrebări sau utilizatori"
 
 #: templates/main_page/nothing_found.html:13
 msgid "You can expand your search by "
@@ -6504,16 +6676,16 @@ msgstr "Puteți extinde căutarea prin "
 
 #: templates/main_page/nothing_found.html:16
 msgid "resetting author"
-msgstr ""
+msgstr "resetăm autorul"
 
 #: templates/main_page/nothing_found.html:19
 msgid "resetting tags"
-msgstr ""
+msgstr "resetăm etichetele"
 
 #: templates/main_page/nothing_found.html:22
 #: templates/main_page/nothing_found.html:25
 msgid "starting over"
-msgstr ""
+msgstr "pornim de la capăt"
 
 #: templates/main_page/nothing_found.html:30
 msgid "Please always feel free to ask your question!"
@@ -6525,7 +6697,7 @@ msgstr "Nu ați găsit ceea ce căutați?"
 
 #: templates/main_page/questions_loop.html:10
 msgid "Ask your question!"
-msgstr ""
+msgstr "Pune o întrebare!"
 
 #: templates/main_page/tab_bar.html:11
 msgid "subscribe to the questions feed"
@@ -6533,11 +6705,11 @@ msgstr "abonarea la fluxul de întrebări"
 
 #: templates/main_page/tab_bar.html:12
 msgid "RSS"
-msgstr ""
+msgstr "RSS"
 
 #: templates/main_page/tag_search.html:2
 msgid "Tag search"
-msgstr ""
+msgstr "Cautare după etichete"
 
 #: templates/main_page/tag_search.html:5
 msgid "search"
@@ -6550,6 +6722,9 @@ msgid ""
 "enable javascript in your browser, <a href=\"%(noscript_url)s\">here is "
 "how</a>"
 msgstr ""
+"Please note: %(app_name)s requires javascript to work properly, please "
+"enable javascript in your browser, <a href=\"%(noscript_url)s\">here is "
+"how</a>"
 
 #: templates/meta/editor_data.html:5
 #, python-format

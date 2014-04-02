@@ -20,787 +20,789 @@ msgstr ""
 #: media/jquery-openid/jquery.openid.js:73
 #, c-format
 msgid "Are you sure you want to remove your %s login?"
-msgstr ""
+msgstr "Ești sigur că vrei să ștergi autentificarea cu %s"
 
 #: media/jquery-openid/jquery.openid.js:90
 msgid "Please add one or more login methods."
-msgstr ""
+msgstr "Te rog să adaugi una sau mai multe metode de autentificare"
 
 #: media/jquery-openid/jquery.openid.js:93
 msgid ""
 "You don't have a method to log in right now, please add one or more by "
 "clicking any of the icons below."
 msgstr ""
+"Nu ai nicio metodă de autentificare, te rog să adaugi una sau mai multe "
+"făcând click pe una dintre iconițele de mai jos"
 
 #: media/jquery-openid/jquery.openid.js:135
 msgid "passwords do not match"
-msgstr ""
+msgstr "parolele nu se potrivesc"
 
 #: media/jquery-openid/jquery.openid.js:162
 msgid "Show/change current login methods"
-msgstr ""
+msgstr "Arată/schimbă metodele curente de autentificare"
 
 #: media/jquery-openid/jquery.openid.js:227
 #, c-format
 msgid "Please enter your %s, then proceed"
-msgstr ""
+msgstr "Te rugăm să introduci %s tău si apoi să treci mai departe."
 
 #: media/jquery-openid/jquery.openid.js:229
 msgid "Connect your %(provider_name)s account to %(site)s"
-msgstr ""
+msgstr "Conectează contul tău %(provider_name)s cu %(site)s"
 
 #: media/jquery-openid/jquery.openid.js:323
 #, c-format
 msgid "Change your %s password"
-msgstr ""
+msgstr "Schimbă parola ta pentru %s"
 
 #: media/jquery-openid/jquery.openid.js:324
 msgid "Change password"
-msgstr ""
+msgstr "Schimbă parola"
 
 #: media/jquery-openid/jquery.openid.js:327
 #, c-format
 msgid "Create a password for %s"
-msgstr ""
+msgstr "Creează o parolă pentru %s"
 
 #: media/jquery-openid/jquery.openid.js:328
 msgid "Create password"
-msgstr ""
+msgstr "Creează o parolă"
 
 #: media/jquery-openid/jquery.openid.js:344
 msgid "Create a password-protected account"
-msgstr ""
+msgstr "Creează un cont protejat de parolă"
 
 #: media/js/group_messaging.js:102 media/js/group_messaging.js.c:293
 msgid "required"
-msgstr ""
+msgstr "obligatoriu"
 
 #: media/js/group_messaging.js:139
 msgid "Your message:"
-msgstr ""
+msgstr "Mesajul tău:"
 
 #: media/js/group_messaging.js:152
 msgid "send"
-msgstr ""
+msgstr "trimite"
 
 #: media/js/group_messaging.js:164 media/js/post.js:1809
 #: media/js/post.js.c:3081 media/js/post.js.c:4598 media/js/user.js:888
 msgid "cancel"
-msgstr ""
+msgstr "anulează"
 
 #: media/js/group_messaging.js:227
 msgid "Reply"
-msgstr ""
+msgstr "Raspunde"
 
 #: media/js/group_messaging.js:236 media/js/group_messaging.js.c:743
 msgid "message sent"
-msgstr ""
+msgstr "mesaj trimis"
 
 #: media/js/group_messaging.js:271
 msgid "user {{str}} does not exist"
 msgid_plural "users {{str}} do not exist"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "utilizatorul {{str}} nu există"
+msgstr[1] "utilizatorii {{str}} nu există"
+msgstr[2] "utilizatorii {{str}} nu există"
 
 #: media/js/group_messaging.js:278
 msgid "cannot send message to yourself"
-msgstr ""
+msgstr "nu poți să îți trimiți mesaj ție"
 
 #: media/js/group_messaging.js:323
 msgid "Recipient:"
-msgstr ""
+msgstr "Destinatar:"
 
 #: media/js/live_search.js:196
 msgid "To see search results, 2 or more characters may be required"
-msgstr ""
+msgstr "Pentru a vedea rezultatele căutării, sunt necesare 2 sau mai multe caractere"
 
 #: media/js/live_search.js:218
 msgid "Ask Your Question"
-msgstr ""
+msgstr "Pune o întrebare"
 
 #: media/js/live_search.js:299
 msgid "Sorry, this tag does not exist"
 msgid_plural "Sorry, these tags do not exist"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ne pare rău, această etichetă nu există"
+msgstr[1] "Ne pare rău, aceste etichete nu există"
+msgstr[2] "Ne pare rău, aceste etichete nu există"
 
 #: media/js/live_search.js:313
 msgid "search or ask your question"
-msgstr ""
+msgstr "caută sau pune o întrebare"
 
 #: media/js/post.js:28
 msgid "loading..."
-msgstr ""
+msgstr "se încarcă..."
 
 #: media/js/post.js:100
 msgid "must be shorter than %(max_chars)s character"
 msgid_plural "must be shorter than %(max_chars)s characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "trebuie să fie mai scurt decât %(max_chars)s caracter"
+msgstr[1] "trebuie să fie mai scurt decât %(max_chars)s caractere"
+msgstr[2] "trebuie să fie mai scurt decât %(max_chars)s de caractere"
 
 #: media/js/post.js:154 media/js/post.js.c:1269
 msgid "tags cannot be empty"
-msgstr ""
+msgstr "etichetele nu pot fi goale"
 
 #: media/js/post.js:160
 msgid "details are required"
-msgstr ""
+msgstr "sunt necesare detalii"
 
 #: media/js/post.js:163
 #, c-format
 msgid "details must have > %s character"
 msgid_plural "details must have > %s characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "detaliile trebuie sa aibă > %s caracter"
+msgstr[1] "detaliile trebuie sa aibă > %s caractere"
+msgstr[2] "detaliile trebuie sa aibă > %s de caractere"
 
 #: media/js/post.js:171
 msgid "enter your question"
-msgstr ""
+msgstr "pune o întrebare"
 
 #: media/js/post.js:174
 #, c-format
 msgid "question must have > %s character"
 msgid_plural "question must have > %s characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "întrebarea trebuie să aibă > %s caracter"
+msgstr[1] "întrebarea trebuie să aibă > %s caractere"
+msgstr[2] "întrebarea trebuie să aibă > %s de caractere"
 
 #: media/js/post.js:193
 msgid "content cannot be empty"
-msgstr ""
+msgstr "conținutul nu poate fi gol"
 
 #: media/js/post.js:196
 #, c-format
 msgid "answer must be > %s character"
 msgid_plural "answer must be > %s characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "răspunsul trebuie sa aibă > caracter"
+msgstr[1] "răspunsul trebuie sa aibă > caractere"
+msgstr[2] "răspunsul trebuie sa aibă > de caractere"
 
 #: media/js/post.js:253
 msgid "Back to the question"
-msgstr ""
+msgstr "Înapoi la întrebare"
 
 #: media/js/post.js:303
 msgid "draft saved..."
-msgstr ""
+msgstr "ciornă salvată..."
 
 #: media/js/post.js:548
 msgid "insufficient privilege"
-msgstr ""
+msgstr "privilegii insuficiente"
 
 #: media/js/post.js:549
 msgid "cannot pick own answer as best"
-msgstr ""
+msgstr "nu pot să aleg un răspuns ca cel mai bun"
 
 #: media/js/post.js:552 media/js/post.js.c:1416
 msgid "please login"
-msgstr ""
+msgstr "te rugăm să te alături"
 
 #: media/js/post.js:554
 msgid "anonymous users cannot follow questions"
-msgstr ""
+msgstr "utilizatorii anonimi nu pot urmări întrebări"
 
 #: media/js/post.js:555
 msgid "anonymous users cannot subscribe to questions"
-msgstr ""
+msgstr "utilizatorii anonimi nu se pot abona la întrebări"
 
 #: media/js/post.js:556 media/js/post.js.c:1426
 msgid "anonymous users cannot vote"
-msgstr ""
+msgstr "utilizatorii anonimi nu pot vota"
 
 #: media/js/post.js:558
 msgid "please confirm offensive"
-msgstr ""
+msgstr "te rugăm să confirmi ca este ofensiv"
 
 #: media/js/post.js:559
 msgid "please confirm removal of offensive flag"
-msgstr ""
+msgstr "te rugăm să confirmi înlăturarea marcajului ofensiv"
 
 #: media/js/post.js:560
 msgid "anonymous users cannot flag offensive posts"
-msgstr ""
+msgstr "utilizatorii anonimi nu pot marca postări ca ofensive"
 
 #: media/js/post.js:561
 msgid "confirm delete"
-msgstr ""
+msgstr "confirmă ștergerea"
 
 #: media/js/post.js:562
 msgid "anonymous users cannot delete/undelete"
-msgstr ""
+msgstr "utilizatorii anonimi nu pot șterge/recupera"
 
 #: media/js/post.js:563
 msgid "post recovered"
-msgstr ""
+msgstr "postare recuperată"
 
 #: media/js/post.js:564
 msgid "post deleted"
-msgstr ""
+msgstr "postare ștearsă"
 
 #: media/js/post.js:831
 msgid "Follow"
-msgstr ""
+msgstr "Urmează"
 
 #: media/js/post.js:840 media/js/post.js.c:849
 #, c-format
 msgid "%s follower"
 msgid_plural "%s followers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%s abonat"
+msgstr[1] "%s abonați"
+msgstr[2] "%s de abonați"
 
 #: media/js/post.js:845
 msgid "<div>Following</div><div class=\"unfollow\">Unfollow</div>"
-msgstr ""
+msgstr "<div>Urmărește</div><div class=\"unfollow\">Nu mai urmări</div>"
 
 #: media/js/post.js:901
 msgid "remove flag"
-msgstr ""
+msgstr "șterge marcajul"
 
 #: media/js/post.js:935 media/js/post.js.c:964
 msgid "flag offensive"
-msgstr ""
+msgstr "marchează ca ofensiv"
 
 #: media/js/post.js:990 media/js/post.js.c:1497
 msgid "undelete"
-msgstr ""
+msgstr "recuperează"
 
 #: media/js/post.js:995 media/js/post.js.c:1501
 msgid "delete"
-msgstr ""
+msgstr "șterge"
 
 #: media/js/post.js:1218 media/js/post.js.c:1445
 msgid "sorry, something is not right here"
-msgstr ""
+msgstr "ne pare rău, ceva este incorect aici"
 
 #: media/js/post.js:1665
 msgid "add comment"
-msgstr ""
+msgstr "adaugă comentariu"
 
 #: media/js/post.js:1671
 msgid "save comment"
-msgstr ""
+msgstr "salvează comentariu"
 
 #: media/js/post.js:1711
 #, c-format
 msgid "enter at least %s characters"
-msgstr ""
+msgstr "introdu cel puțin %s caractere"
 
 #: media/js/post.js:1713
 #, c-format
 msgid "enter at least %s more characters"
-msgstr ""
+msgstr "introdu cel puțin încă %s caractere"
 
 #: media/js/post.js:1723
 #, c-format
 msgid "%s characters left"
-msgstr ""
+msgstr "%s caractere rămase"
 
 #: media/js/post.js:1823
 msgid "minor edit (don't send alerts)"
-msgstr ""
+msgstr "actualizare minoră (nu trimite alerte)"
 
 #: media/js/post.js:1855
 msgid "Are you sure you don't want to post this comment?"
-msgstr ""
+msgstr "Ești sigur că nu vrei să trimiti această postare"
 
 #: media/js/post.js:1890 media/js/utils.js:3360 media/js/utils.js.c:3515
 msgid "just now"
-msgstr ""
+msgstr "chiar acum"
 
 #: media/js/post.js:1956
 msgid "delete this comment"
-msgstr ""
+msgstr "șterge acest comment"
 
 #: media/js/post.js:2271
 msgid "confirm delete comment"
-msgstr ""
+msgstr "confirmă stergerea comentariului"
 
 #: media/js/post.js:2409
 msgid "please sign in or register to post comments"
-msgstr ""
+msgstr "te rog să te autentifici sau să te înregistrezi pentru a posta comentarii"
 
 #: media/js/post.js:2560
 msgid "Please enter question title (>10 characters)"
-msgstr ""
+msgstr "Te rugăm să introduci titlul întrebării (>10 caractere)"
 
 #: media/js/post.js:2612 media/js/post.js.c:4626
 msgid "Sorry, you have only read access"
-msgstr ""
+msgstr "Ne pare rău, ai doar dreptul de a citi"
 
 #: media/js/post.js:3075 media/js/post.js.c:3869 media/js/post.js.c:4058
 msgid "save"
-msgstr ""
+msgstr "salvează"
 
 #: media/js/post.js:3199
 msgid "Enter the logo url or upload an image"
-msgstr ""
+msgstr "Introdu url-ul pentru logo sau încarcă o imagine"
 
 #: media/js/post.js:3225
 msgid "Do you really want to remove the image?"
-msgstr ""
+msgstr "Ești sigur că vrei să ștergi imaginea?"
 
 #: media/js/post.js:3341
 msgid "change logo"
-msgstr ""
+msgstr "schimbă logo"
 
 #: media/js/post.js:3342
 msgid "add logo"
-msgstr ""
+msgstr "adaugă logo"
 
 #: media/js/post.js:3444
 #, c-format
 msgid "tag \"%s\" was already added, no need to repeat (press \"escape\" to delete)"
-msgstr ""
+msgstr "eticheta \"%s\" a fost deja adăugată, nu este necesar să fie adăugată din nou (apasă \"escape\" pentru ștergere)"
 
 #: media/js/post.js:3453
 #, c-format
 msgid "a maximum of %s tag is allowed"
 msgid_plural "a maximum of %s tags are allowed"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "maximum %s etichetă este permisă"
+msgstr[1] "maximum %s etichete sunt permise"
+msgstr[2] "maximum %s de etichete sunt permise"
 
 #: media/js/post.js:3799
 msgid "Delete category?"
-msgstr ""
+msgstr "Ștergi categoria?"
 
 #: media/js/post.js:3888 media/js/utils.js:881
 msgid "edit"
-msgstr ""
+msgstr "edit"
 
 #: media/js/post.js:3975
 msgid "category name cannot be empty"
-msgstr ""
+msgstr "numele categoriei nu poate rămâne gol"
 
 #: media/js/post.js:4011
 msgid "already exists at the current level!"
-msgstr ""
+msgstr "deja există la nivelul curent!"
 
 #: media/js/post.js:4047
 msgid "add category"
-msgstr ""
+msgstr "adaugă categorie"
 
 #: media/js/post.js:4594
 msgid "save tags"
-msgstr ""
+msgstr "salvează etichete"
 
 #: media/js/post.js:4689 media/js/post.js.c:4723
 msgid "User name:"
-msgstr ""
+msgstr "Numele utilizatorului:"
 
 #: media/js/post.js:4710
 msgid "Group name:"
-msgstr ""
+msgstr "Numele grupului:"
 
 #: media/js/post.js:4736
 msgid "Shared with the following users:"
-msgstr ""
+msgstr "Vizibil pentru următorii utilizatori:"
 
 #: media/js/post.js:4742
 msgid "Shared with the following groups:"
-msgstr ""
+msgstr "Vizibil pentru următoarele grupuri:"
 
 #: media/js/tag_selector.js:14
 msgid "Tag \"<span></span>\" matches:"
-msgstr ""
+msgstr "Eticheta \"<span></span>\" se potrivește:"
 
 #: media/js/tag_selector.js:84
 #, c-format
 msgid "and %s more, not shown..."
-msgstr ""
+msgstr "și încă %s, ascunse"
 
 #: media/js/user.js:15
 msgid "Please select at least one item"
-msgstr ""
+msgstr "Te rog să selectezi cel puțin un element"
 
 #: media/js/user.js:59
 msgid "Delete this notification?"
 msgid_plural "Delete these notifications?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Ștergi această notificare?"
+msgstr[1] "Ștergi aceste notificări?"
+msgstr[2] "Ștergi aceste notificări?"
 
 #: media/js/user.js:66
 msgid "Close this entry?"
 msgid_plural "Close these entries?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Închizi această înregistrare?"
+msgstr[1] "Închizi aceste înregistrări?"
+msgstr[2] "Închizi aceste înregistrări?"
 
 #: media/js/user.js:74
 msgid "Remove all flags and approve this entry?"
 msgid_plural "Remove all flags and approve these entries?"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Înlături toate marcajele și aprobi această înregistrare?"
+msgstr[1] "Înlături toate marcajele și aprobi aceste înregistrări?"
+msgstr[2] "Înlături toate marcajele și aprobi aceste înregistrări?"
 
 #: media/js/user.js:223
 msgid "Post deleted"
-msgstr ""
+msgstr "Postare ștearsă"
 
 #: media/js/user.js:225
 msgid "Post approved"
-msgstr ""
+msgstr "Postare aprobată"
 
 #: media/js/user.js:246
 msgid "Accept"
-msgstr ""
+msgstr "Aceptă"
 
 #: media/js/user.js:255
 msgid "Reject"
-msgstr ""
+msgstr "Respinge"
 
 #: media/js/user.js:270
 msgid "add new reject reason"
-msgstr ""
+msgstr "adaugă un nou motiv de respingere"
 
 #: media/js/user.js:375
 msgid "Looks there are some things to fix:"
-msgstr ""
+msgstr "Se pare că există ceva de reparat:"
 
 #: media/js/user.js:443
 msgid "Please provide description."
-msgstr ""
+msgstr "Te rugăm să introduci o descriere."
 
 #: media/js/user.js:446
 msgid "Please provide details."
-msgstr ""
+msgstr "Te rugăm să introduci detalii."
 
 #: media/js/user.js:560
 msgid "A reason must be selected to delete one."
-msgstr ""
+msgstr "Trebuie să introduci un motiv pentru a șterge"
 
 #: media/js/user.js:659
 msgid "A reason must be selected to reject post."
-msgstr ""
+msgstr "Un motiv trebuie să fie selectat pentru a respinge postarea."
 
 #: media/js/user.js:708
 msgid "Please <a href=\"%(signin_url)s\">signin</a> to follow %(username)s"
-msgstr ""
+msgstr "Te rugăm <a href=\"%(signin_url)s\">autentifică-te</a> pentru a te abona la %(username)s"
 
 #: media/js/user.js:740
 #, c-format
 msgid "unfollow %s"
-msgstr ""
+msgstr "dezabonează-te de la %s"
 
 #: media/js/user.js:743
 #, c-format
 msgid "following %s"
-msgstr ""
+msgstr "este abonat la %s"
 
 #: media/js/user.js:749
 #, c-format
 msgid "follow %s"
-msgstr ""
+msgstr "abonează-te la %s"
 
 #: media/js/user.js:883
 msgid "add group"
-msgstr ""
+msgstr "adaugă grup"
 
 #: media/js/user.js:963
 msgid "add"
-msgstr ""
+msgstr "adaugă"
 
 #: media/js/utils.js:99
 msgid "and"
-msgstr ""
+msgstr "și"
 
 #: media/js/utils.js:117
 msgid "click to close"
-msgstr ""
+msgstr "click pentru a închide"
 
 #: media/js/utils.js:880
 msgid "click to edit this comment"
-msgstr ""
+msgstr "click pentru a edita comentariul"
 
 #: media/js/utils.js:905
 msgid "convert to answer"
-msgstr ""
+msgstr "transformă în răspuns"
 
 #: media/js/utils.js:958
 msgid "Ok"
-msgstr ""
+msgstr "Ok"
 
 #: media/js/utils.js:959 media/js/utils.js.c:1407
 msgid "Cancel"
-msgstr ""
+msgstr "Anulare"
 
 #: media/js/utils.js:1219
 #, c-format
 msgid "Uploaded file: %s"
-msgstr ""
+msgstr "Încarcă fișierul: %s"
 
 #: media/js/utils.js:1234
 msgid "Choose a different image"
-msgstr ""
+msgstr "Alege o imagine diferită"
 
 #: media/js/utils.js:1236
 msgid "Choose a different file"
-msgstr ""
+msgstr "Alege un fișier diferit"
 
 #: media/js/utils.js:1250
 msgid "Oops, looks like we had an error. Sorry."
-msgstr ""
+msgstr "Ups, se pare ca am avut o eroare. Ne pare rău."
 
 #: media/js/utils.js:1311
 msgid "Choose an image to insert"
-msgstr ""
+msgstr "Alege o image pentru inserare"
 
 #: media/js/utils.js:1313
 msgid "Choose a file to insert"
-msgstr ""
+msgstr "Alege un fișier pentru a-l insera"
 
 #: media/js/utils.js:1326
 msgid "Allowed file types are:"
-msgstr ""
+msgstr "Tipurile de fișiere permise sunt:"
 
 #: media/js/utils.js:1332
 #: media/js/tinymce/plugins/askbot_attachment/editor_plugin.js:35
 msgid "Or paste file url here"
-msgstr ""
+msgstr "Sau lipește url-ul fișierului aici"
 
 #: media/js/utils.js:1406
 msgid "Save"
-msgstr ""
+msgstr "Salvează"
 
 #: media/js/utils.js:1478
 msgid "saved"
-msgstr ""
+msgstr "salvat"
 
 #: media/js/utils.js:1602
 msgid "enabled"
-msgstr ""
+msgstr "activat"
 
 #: media/js/utils.js:1604
 msgid "disabled"
-msgstr ""
+msgstr "deactivat"
 
 #: media/js/utils.js:2038
 msgid "group name"
-msgstr ""
+msgstr "numele grupului"
 
 #: media/js/utils.js:2046
 msgid "add new group"
-msgstr ""
+msgstr "adaugă un grup nou"
 
 #: media/js/utils.js:2138
 msgid "Group %(name)s already exists. Group names are case-insensitive."
-msgstr ""
+msgstr "Grupul %(name)s există deja. Numele de grupuri nu fac diferența între litere mari și litere mici"
 
 #: media/js/utils.js:2311
 #, c-format
 msgid "see questions tagged '%s'"
-msgstr ""
+msgstr "vezi întrebările etichetate cu '%s'"
 
 #: media/js/utils.js:3358
 msgid "ago"
-msgstr ""
+msgstr "în urmă"
 
 #: media/js/utils.js:3359
 msgid "from now"
-msgstr ""
+msgstr "de acum"
 
 #: media/js/utils.js:3361
 msgid "about a minute"
-msgstr ""
+msgstr "aproximativ un minut"
 
 #: media/js/utils.js:3362
 #, c-format
 msgid "%d minutes"
-msgstr ""
+msgstr "%d minute"
 
 #: media/js/utils.js:3363
 msgid "about an hour"
-msgstr ""
+msgstr "aproximativ o ora"
 
 #: media/js/utils.js:3364
 #, c-format
 msgid "%d hours"
-msgstr ""
+msgstr "%d ore"
 
 #: media/js/utils.js:3365 media/js/utils.js.c:3493
 msgid "yesterday"
-msgstr ""
+msgstr "ieri"
 
 #: media/js/utils.js:3366
 #, c-format
 msgid "%d days"
-msgstr ""
+msgstr "%d zile"
 
 #: media/js/utils.js:3367
 msgid "about a month"
-msgstr ""
+msgstr "aproximativ o lună"
 
 #: media/js/utils.js:3368
 #, c-format
 msgid "%d months"
-msgstr ""
+msgstr "%d luni"
 
 #: media/js/utils.js:3369
 msgid "about a year"
-msgstr ""
+msgstr "aproximativ un an"
 
 #: media/js/utils.js:3370
 #, c-format
 msgid "%d years"
-msgstr ""
+msgstr "%d ani"
 
 #: media/js/utils.js:3468
 msgid "Jan"
-msgstr ""
+msgstr "Ian"
 
 #: media/js/utils.js:3469
 msgid "Feb"
-msgstr ""
+msgstr "Feb"
 
 #: media/js/utils.js:3470
 msgid "Mar"
-msgstr ""
+msgstr "Mar"
 
 #: media/js/utils.js:3471
 msgid "Apr"
-msgstr ""
+msgstr "Apr"
 
 #: media/js/utils.js:3472
 msgid "May"
-msgstr ""
+msgstr "Mai"
 
 #: media/js/utils.js:3473
 msgid "Jun"
-msgstr ""
+msgstr "Iun"
 
 #: media/js/utils.js:3474
 msgid "Jul"
-msgstr ""
+msgstr "Iul"
 
 #: media/js/utils.js:3475
 msgid "Aug"
-msgstr ""
+msgstr "Aug"
 
 #: media/js/utils.js:3476
 msgid "Sep"
-msgstr ""
+msgstr "Sep"
 
 #: media/js/utils.js:3477
 msgid "Oct"
-msgstr ""
+msgstr "Oct"
 
 #: media/js/utils.js:3478
 msgid "Nov"
-msgstr ""
+msgstr "Noi"
 
 #: media/js/utils.js:3479
 msgid "Dec"
-msgstr ""
+msgstr "Dec"
 
 #: media/js/utils.js:3491
 msgid "2 days ago"
-msgstr ""
+msgstr "acum 2 zile"
 
 #: media/js/utils.js:3498
 #, c-format
 msgid "%s hour ago"
 msgid_plural "%s hours ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "acum %s oră"
+msgstr[1] "acum %s ore"
+msgstr[2] "acum %s de ore"
 
 #: media/js/utils.js:3508
 #, c-format
 msgid "%s min ago"
 msgid_plural "%s mins ago"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "acum %s minut"
+msgstr[1] "acum %s minute"
+msgstr[2] "acum %s de minute"
 
 #: media/js/tinymce/plugins/askbot_attachment/editor_plugin.js:71
 msgid "Insert a file"
-msgstr ""
+msgstr "Inserează un fișier"
 
 #: media/js/tinymce/plugins/askbot_imageuploader/editor_plugin.js:70
 msgid "Insert image"
-msgstr ""
+msgstr "Inserează o imagine"
 
 #: media/js/wmd/wmd.js:31
 msgid "bold"
-msgstr ""
+msgstr "bold"
 
 #: media/js/wmd/wmd.js:32
 msgid "italic"
-msgstr ""
+msgstr "italic"
 
 #: media/js/wmd/wmd.js:33
 msgid "link"
-msgstr ""
+msgstr "link"
 
 #: media/js/wmd/wmd.js:34
 msgid "quote"
-msgstr ""
+msgstr "citează"
 
 #: media/js/wmd/wmd.js:35
 msgid "preformatted text"
-msgstr ""
+msgstr "text deja formatat"
 
 #: media/js/wmd/wmd.js:36
 msgid "image"
-msgstr ""
+msgstr "imagine"
 
 #: media/js/wmd/wmd.js:37
 msgid "attachment"
-msgstr ""
+msgstr "atașament"
 
 #: media/js/wmd/wmd.js:38
 msgid "numbered list"
-msgstr ""
+msgstr "listă numerotată"
 
 #: media/js/wmd/wmd.js:39
 msgid "bulleted list"
-msgstr ""
+msgstr "listă cu buline"
 
 #: media/js/wmd/wmd.js:40
 msgid "heading"
-msgstr ""
+msgstr "titlu"
 
 #: media/js/wmd/wmd.js:41
 msgid "horizontal bar"
-msgstr ""
+msgstr "bară orizontală"
 
 #: media/js/wmd/wmd.js:42
 msgid "undo"
-msgstr ""
+msgstr "anulare"
 
 #: media/js/wmd/wmd.js:43 media/js/wmd/wmd.js.c:1169
 msgid "redo"
-msgstr ""
+msgstr "revenire"
 
 #: media/js/wmd/wmd.js:54
 msgid "enter image url"
-msgstr ""
+msgstr "introdu url-ul imaginii"
 
 #: media/js/wmd/wmd.js:55
 msgid "enter url"
-msgstr ""
+msgstr "introdu url"
 
 #: media/js/wmd/wmd.js:56
 msgid "upload file attachment"
-msgstr ""
+msgstr "încarcă un fișier ca atașament"
 
 #: media/js/wmd/wmd.js:1836
 msgid "image description"
-msgstr ""
+msgstr "descrierea imaginii"
 
 #: media/js/wmd/wmd.js:1839
 msgid "file name"
-msgstr ""
+msgstr "numele fișierului"
 
 #: media/js/wmd/wmd.js:1843
 msgid "link text"
-msgstr ""
+msgstr "leagă textul"
 
 #~ msgid "post a comment"
 #~ msgstr "save comment"

@@ -6517,7 +6517,7 @@ msgstr ""
 
 #: templates/main_page/nothing_found.html:30
 msgid "Please always feel free to ask your question!"
-msgstr "Vă rugăm nu vă fie teamă pt. a întreba!"
+msgstr "Vă rugăm, nu vă fie teamă să puneți o întrebare"
 
 #: templates/main_page/questions_loop.html:9
 msgid "Did not find what you were looking for?"

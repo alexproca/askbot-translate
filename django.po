@@ -8005,11 +8005,11 @@ msgstr "insigne:"
 
 #: templates/widgets/user_navigation.html:17
 msgid "sign out"
-msgstr ""
+msgstr "deautentificare"
 
 #: templates/widgets/user_navigation.html:20
 msgid "Hi there! Please sign in"
-msgstr ""
+msgstr "Salutare! Te rugăm să te autentifici"
 
 #: templates/widgets/user_navigation.html:23
 msgid "settings"
@@ -8017,16 +8017,16 @@ msgstr "configurări"
 
 #: templates/widgets/user_navigation.html:24
 msgid "widgets"
-msgstr ""
+msgstr "widgeturi"
 
 #: templates/widgets/user_perms.html:1
 #, python-format
 msgid "Your karma is %(karma)s"
-msgstr ""
+msgstr "Reputația ta este %(karma)"
 
 #: templates/widgets/user_perms.html:4
 msgid "Karma reflects the value of your contribution to this community."
-msgstr ""
+msgstr "Reputația reflectă valoarea contribuțiilor tale la această comunitate"
 
 #: templates/widgets/user_perms.html:13
 #, python-format
@@ -8034,22 +8034,24 @@ msgid ""
 "Since you are the site %(role)s, you have access to all functions regardless"
 " of your karma."
 msgstr ""
+"Deoarece tu esti %(role)s site-ului, ai acces la toate funcțiile "
+"indiferent de reputație."
 
 #: templates/widgets/user_perms.html:15
 msgid "The higher is your karma, the more rights you have on this site."
-msgstr ""
+msgstr "Cu cât mai mare este reputația ta, cu atât mai multe drepturi ai pe site."
 
 #: templates/widgets/user_perms.html:19
 msgid "Currently, you can:"
-msgstr ""
+msgstr "În acest moment, poți să:"
 
 #: templates/widgets/user_perms.html:21
 msgid "Post questions, answers and comments"
-msgstr ""
+msgstr "Postezi întrebări, oferi răspunsuri și comentarii"
 
 #: templatetags/extra_filters_jinja.py:332
 msgid "no"
-msgstr ""
+msgstr "nu"
 
 #: utils/decorators.py:104 views/commands.py:146
 msgid "Oops, apologies - there was some error"
@@ -8057,15 +8059,15 @@ msgstr "Oops, ne cerem scuze - a apărut o eroare"
 
 #: utils/decorators.py:123
 msgid "Please login to post"
-msgstr ""
+msgstr "Te rugăm să te autentifici pentru a posta"
 
 #: utils/decorators.py:219
 msgid "Spam was detected on your post, sorry for if this is a mistake"
-msgstr ""
+msgstr "A fost detectat spam în postarea ta, ne pare rău dacă aceasta este o greșeală."
 
 #: utils/decorators.py:243
 msgid "This function is limited to moderators and administrators"
-msgstr ""
+msgstr "Această funcționalitate este limitată la moderatori și administratori"
 
 #: utils/forms.py:66
 msgid "this field is required"
@@ -8073,7 +8075,7 @@ msgstr "acest câmp este obligatoriu"
 
 #: utils/forms.py:93
 msgid "Choose a screen name"
-msgstr ""
+msgstr "Alege un nume de scenă"
 
 #: utils/forms.py:103
 msgid "user name is required"
@@ -8101,15 +8103,15 @@ msgstr "numele de utilizator poate fi format doar din litere, spații și liniu�
 
 #: utils/forms.py:109
 msgid "please use at least some alphabetic characters in the user name"
-msgstr ""
+msgstr "te rugăm să utilizezi cel puțin câteva caractere alfanumerice în numele de utilizator"
 
 #: utils/forms.py:110
 msgid "symbol \"@\" is not allowed"
-msgstr ""
+msgstr "simbolul \"@\" nu este permis"
 
 #: utils/forms.py:222
 msgid "Your email <i>(never shared)</i>"
-msgstr ""
+msgstr "Emailul tau <i>(nu va fi public)</i>"
 
 #: utils/forms.py:224
 msgid "email address is required"

@@ -6989,21 +6989,21 @@ msgstr "Abonează-te"
 #, python-format
 msgid "%(count)s follower"
 msgid_plural "%(count)s followers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "%(count)s abonat"
+msgstr[1] "%(count)s abonați"
+msgstr[2] "%(count)s de abonați"
 
 #: templates/question/sidebar.html:33
 msgid "subscribe to this question rss feed"
-msgstr ""
+msgstr "abonează-te la această întrebare pentru a primi notificări RSS"
 
 #: templates/question/sidebar.html:34
 msgid "subscribe to rss feed"
-msgstr ""
+msgstr "abonează-te la RSS"
 
 #: templates/question/sidebar.html:44
 msgid "Invite"
-msgstr ""
+msgstr "Invită"
 
 #: templates/question/sidebar.html:50 templates/question/sidebar.html.py:56
 #: templates/user_profile/user_email_subscriptions.html:59
@@ -7011,58 +7011,59 @@ msgstr ""
 #: templates/widgets/tag_selector.html:37
 #: templates/widgets/tag_selector.html:56
 msgid "add"
-msgstr ""
+msgstr "adaugă"
 
 #: templates/question/sidebar.html:52 templates/question/sidebar.html.py:58
 msgid "- or -"
-msgstr ""
+msgstr "- sau -"
 
 #: templates/question/sidebar.html:70
 msgid "share with everyone"
-msgstr ""
+msgstr "publică pentru oricine"
 
 #: templates/question/sidebar.html:81
 msgid "This question is currently shared only with:"
-msgstr ""
+msgstr "Această întrebare este în acest moment publică pentru:"
 
 #: templates/question/sidebar.html:83
 msgid "Individual users"
-msgstr ""
+msgstr "Utilizatori individuali."
 
 #: templates/question/sidebar.html:88
 msgid "You"
-msgstr ""
+msgstr "Tu"
 
 #: templates/question/sidebar.html:95 templates/question/sidebar.html:115
 msgid "and"
-msgstr ""
+msgstr "și"
 
 #: templates/question/sidebar.html:120
 #, python-format
 msgid "%(more_count)s more"
-msgstr ""
+msgstr "încă %(more_count)s"
 
 #: templates/question/sidebar.html:126
 msgid "Public thread"
-msgstr ""
+msgstr "Fir de discuții public"
 
 #: templates/question/sidebar.html:127
 #, python-format
 msgid ""
 "This thread is public, all members of %(site_name)s can read this page."
 msgstr ""
+"Acest fir de discuții este public, toți membrii %(site_name)s pot vedea această pagină."
 
 #: templates/question/sidebar.html:135
 msgid "Stats"
-msgstr ""
+msgstr "Statistici"
 
 #: templates/question/sidebar.html:137
 msgid "Asked"
-msgstr ""
+msgstr "A întrebat"
 
 #: templates/question/sidebar.html:140
 msgid "Seen"
-msgstr ""
+msgstr "A fost văzut"
 
 #: templates/question/sidebar.html:140
 msgid "times"
@@ -7070,7 +7071,7 @@ msgstr "ori"
 
 #: templates/question/sidebar.html:143
 msgid "Last updated"
-msgstr ""
+msgstr "Utlima actualizare"
 
 #: templates/question/sidebar.html:151
 msgid "Related questions"
@@ -7078,16 +7079,16 @@ msgstr "Întrebări similare"
 
 #: templates/tags/form_bulk_tag_subscription.html:4
 msgid "Tag subscriptions"
-msgstr ""
+msgstr "Abonamente la etichete"
 
 #: templates/tags/form_bulk_tag_subscription.html:6
 msgid "Tag Subscriptions"
-msgstr ""
+msgstr "Abonamente la Etichete"
 
 #: templates/tags/header.html:7
 #, python-format
 msgid "Tags, matching \"%(tag_query)s\""
-msgstr ""
+msgstr "Etichete, care se potrivesc cu \"%(tag_query)s\""
 
 #: templates/tags/header.html:19
 msgid "sorted alphabetically"
@@ -7107,35 +7108,35 @@ msgstr "după popularitate"
 
 #: templates/tags/header.html:34 templates/tags/header.html.py:35
 msgid "suggested"
-msgstr ""
+msgstr "sugerat"
 
 #: templates/tags/header.html:42 templates/tags/header.html.py:43
 msgid "manage subscriptions"
-msgstr ""
+msgstr "administrează abonamentele"
 
 #: templates/tags/list_bulk_tag_subscription.html:4
 msgid "Manage Tag subscriptions"
-msgstr ""
+msgstr "Administrează abonamentele la Etichete"
 
 #: templates/tags/list_bulk_tag_subscription.html:6
 msgid "Manage Tag subscription</a> "
-msgstr ""
+msgstr "Administrează abonamentele la Etichete"
 
 #: templates/tags/list_bulk_tag_subscription.html:6
 msgid "Create New"
-msgstr ""
+msgstr "Creează nou"
 
 #: templates/tags/list_bulk_tag_subscription.html:11
 msgid "Date"
-msgstr ""
+msgstr "Dată"
 
 #: templates/tags/list_bulk_tag_subscription.html:17
 msgid "Action"
-msgstr ""
+msgstr "Acțiune"
 
 #: templates/tags/list_bulk_tag_subscription.html:48 views/commands.py:759
 msgid "Edit"
-msgstr ""
+msgstr "Modifică"
 
 #: templates/user_inbox/base.html:14
 msgid "Sections:"
@@ -7143,7 +7144,7 @@ msgstr "Secțiuni:"
 
 #: templates/user_inbox/base.html:19
 msgid "messages"
-msgstr ""
+msgstr "mesaje"
 
 #: templates/user_inbox/base.html:24
 #, python-format
@@ -7153,31 +7154,31 @@ msgstr "răspunsuri site (%(re_count)s)"
 #: templates/user_inbox/base.html:31
 #, python-format
 msgid "flagged items (%(flags_count)s)"
-msgstr ""
+msgstr "elemente marcate (%(flags_count)s)"
 
 #: templates/user_inbox/base.html:38
 msgid "group join requests"
-msgstr ""
+msgstr "cereri de alăturare la grup"
 
 #: templates/user_inbox/group_join_requests.html:4
 msgid "inbox - group join requests"
-msgstr ""
+msgstr "căsuță poștală - cereri de alăturare la grup"
 
 #: templates/user_inbox/group_join_requests.html:26
 msgid "Approve"
-msgstr ""
+msgstr "Aprobă"
 
 #: templates/user_inbox/group_join_requests.html:41
 msgid "Deny"
-msgstr ""
+msgstr "Respinge"
 
 #: templates/user_inbox/messages.html:104
 msgid "inbox - messages"
-msgstr ""
+msgstr "căsuță poștală - mesaje"
 
 #: templates/user_inbox/responses_and_flags.html:4
 msgid "inbox - responses"
-msgstr ""
+msgstr "căsuță poștală - răspunsuri"
 
 #: templates/user_inbox/responses_and_flags.html:8
 msgid "select:"
@@ -7205,57 +7206,57 @@ msgstr "marcează ca nou"
 
 #: templates/user_inbox/responses_and_flags.html:17
 msgid "dismiss"
-msgstr ""
+msgstr "îndepărtează"
 
 #: templates/user_inbox/responses_and_flags.html:19
 msgid "remove flags/approve"
-msgstr ""
+msgstr "înlătură sau aprobă marcaje"
 
 #: templates/user_inbox/responses_and_flags.html:23
 msgid "delete post"
-msgstr ""
+msgstr "șterge postarea"
 
 #: templates/user_profile/reject_post_dialog.html:4
 msgid "Reject the post(s)?"
-msgstr ""
+msgstr "Respinge postările"
 
 #: templates/user_profile/reject_post_dialog.html:11
 msgid "1) Enter a brief description of why you are rejecting the post."
-msgstr ""
+msgstr "1) Introdu o scurtă descriere despre cine ești și de ce respingi această postare."
 
 #: templates/user_profile/reject_post_dialog.html:14
 msgid "2) Please enter details here. This text will be sent to the user."
-msgstr ""
+msgstr "2) Te rugăm să introduci detaliile aici. Acest text va trimis către utilizator."
 
 #: templates/user_profile/reject_post_dialog.html:20
 #: templates/user_profile/reject_post_dialog.html:88
 msgid "Use this reason &amp; reject"
-msgstr ""
+msgstr "Utilizează acest motiv și respinge"
 
 #: templates/user_profile/reject_post_dialog.html:27
 #: templates/user_profile/reject_post_dialog.html:95
 msgid "Use other reason"
-msgstr ""
+msgstr "Utilizează alt motiv"
 
 #: templates/user_profile/reject_post_dialog.html:33
 msgid "Save reason, but do not reject"
-msgstr ""
+msgstr "Salvează răspunsul, dar nu respinge"
 
 #: templates/user_profile/reject_post_dialog.html:43
 msgid "Please, choose a reason for the rejection."
-msgstr ""
+msgstr "Te rugăm, alege un motiv pentru respingere."
 
 #: templates/user_profile/reject_post_dialog.html:58
 msgid "Select this reason"
-msgstr ""
+msgstr "Selectează acest răspuns."
 
 #: templates/user_profile/reject_post_dialog.html:65
 msgid "Delete this reason"
-msgstr ""
+msgstr "Șterge acest răspuns"
 
 #: templates/user_profile/reject_post_dialog.html:71
 msgid "Add a new reason"
-msgstr ""
+msgstr "Adaugă un nou motiv"
 
 #: templates/user_profile/reject_post_dialog.html:81
 msgid ""
@@ -7263,39 +7264,42 @@ msgid ""
 "reason-title\"></span>\"</strong>. The text below will be sent to the user "
 "and the post(s) will be deleted:"
 msgstr ""
+"Ai selectat motivul de respingere <strong>\"<span class=\"selected-"
+"reason-title\"></span>\"</strong>. Textul de mai jos va fi trimis către utilizator "
+"și postarea va fi ștearsă:"
 
 #: templates/user_profile/reject_post_dialog.html:101
 msgid "Edit this reason"
-msgstr ""
+msgstr "Modifică acest motiv"
 
 #: templates/user_profile/twitter_sharing_controls.html:8
 #, python-format
 msgid "Auto-tweeting to @%(handle)s"
-msgstr ""
+msgstr "Postează automat pe twitter cu hashtagul @%(handle)s"
 
 #: templates/user_profile/twitter_sharing_controls.html:19
 msgid "stop tweeting"
-msgstr ""
+msgstr "nu mai posta pe twitter"
 
 #: templates/user_profile/twitter_sharing_controls.html:23
 msgid "Auto-tweeting is inactive"
-msgstr ""
+msgstr "Postarea automată pe twitter este inactivă"
 
 #: templates/user_profile/twitter_sharing_controls.html:26
 msgid "Select twitter account"
-msgstr ""
+msgstr "Selectează contul de twitter"
 
 #: templates/user_profile/twitter_sharing_controls.html:28
 msgid "use another account"
-msgstr ""
+msgstr "utilizează un alt cont"
 
 #: templates/user_profile/twitter_sharing_controls.html:32
 msgid "Auto-tweeting is off"
-msgstr ""
+msgstr "Postarea automată pe twitter este inactivă"
 
 #: templates/user_profile/twitter_sharing_controls.html:33
 msgid "Start tweeting"
-msgstr ""
+msgstr "Începe să postezi pe twitter"
 
 #: templates/user_profile/user.html:12
 #, python-format
@@ -7330,7 +7334,7 @@ msgstr "Nume afișat"
 
 #: templates/user_profile/user_edit.html:59
 msgid "(cannot be changed)"
-msgstr ""
+msgstr "(nu poate fi schimbat)"
 
 #: templates/user_profile/user_edit.html:109
 #: templates/user_profile/user_email_subscriptions.html:23
@@ -7354,27 +7358,32 @@ msgid ""
 "wish to receive emails - select 'no email' on all items below.<br/>Updates "
 "are only sent when there is any new activity on selected items."
 msgstr ""
+"<span class='big strong'>Ajustează frecvența actualizărilor prin email.</span> Recepționează "
+"actualizări despre întrebările interesante prin email, <strong><br/>ajută "
+"comunitatea</strong> oferind răspunsuri la întrebările colegilor tăi. Dacă nu dorești "
+"să primești emailuri - selectează 'fără email' în toate câmpurile de mai jos.<br/>Actualizările "
+"sunt trimise doar când există activitate despre elementele selectate."
 
 #: templates/user_profile/user_email_subscriptions.html:24
 msgid "Stop Email"
-msgstr ""
+msgstr "Nu mai trimite email"
 
 #: templates/user_profile/user_email_subscriptions.html:30
 msgid "Subscribed languages"
-msgstr ""
+msgstr "Abonamente pentru limbile"
 
 #: templates/user_profile/user_email_subscriptions.html:43
 msgid "Save languages"
-msgstr ""
+msgstr "Salvează limbile"
 
 #: templates/user_profile/user_email_subscriptions.html:48
 msgid "Subscribed Tags"
-msgstr ""
+msgstr "Etichete la care ești abonat"
 
 #: templates/user_profile/user_favorites.html:4
 #: templates/user_profile/user_tabs.html:29
 msgid "followed questions"
-msgstr ""
+msgstr "întrebări la care ești abonat"
 
 #: templates/user_profile/user_info.html:37
 msgid "update profile"
@@ -7390,15 +7399,15 @@ msgstr "nume real"
 
 #: templates/user_profile/user_info.html:60
 msgid "groups"
-msgstr ""
+msgstr "grupuri"
 
 #: templates/user_profile/user_info.html:71
 msgid "add group"
-msgstr ""
+msgstr "adaugă grup"
 
 #: templates/user_profile/user_info.html:77
 msgid "member since"
-msgstr ""
+msgstr "membru din"
 
 #: templates/user_profile/user_info.html:82
 msgid "last seen"
@@ -7406,7 +7415,7 @@ msgstr "văzut ultima dată"
 
 #: templates/user_profile/user_info.html:88
 msgid "website"
-msgstr ""
+msgstr "site web"
 
 #: templates/user_profile/user_info.html:101
 msgid "location"
@@ -7419,7 +7428,7 @@ msgstr "vârstă"
 #: templates/user_profile/user_info.html:109
 #, python-format
 msgid "%(age)s years old"
-msgstr ""
+msgstr "vârsta %(age)s ani"
 
 #: templates/user_profile/user_info.html:114
 msgid "todays unused votes"
@@ -7474,7 +7483,9 @@ msgstr "Trimite mesaj către %(username)s"
 msgid ""
 "An email will be sent to the user with 'reply-to' field set to your email "
 "address. Please make sure that your address is entered correctly."
-msgstr "Un mesaj email va fi trimis către utilizator cu câmpul „reply-to” definit la adresa proprie de email. Verificați că adresa proprie este introdusă corect."
+msgstr ""
+"Un mesaj email va fi trimis către utilizator cu câmpul „reply-to” definit "
+"la adresa proprie de email. Verificați că adresa proprie este introdusă corect."
 
 #: templates/user_profile/user_moderate.html:46
 msgid "Message sent"
@@ -7490,58 +7501,67 @@ msgid ""
 "assign/revoke any status to any user, and are exempt from the reputation "
 "limits."
 msgstr ""
+"Administratorii au privilegiile pe care le au și utilizatorii obișnuiți, "
+"dar în plus ei pot să adauge sau să șteargă orice drept la orice "
+"utilizator, și nu li se aplică limitele de la reputație"
 
 #: templates/user_profile/user_moderate.html:77
 msgid ""
 "Moderators have the same privileges as administrators, but cannot add or "
 "remove user status of 'moderator' or 'administrator'."
 msgstr ""
+"Moderatorii au aceleași privilegii ca și administratorii, dar nu pot adăuga sau "
+"șterge drepturile 'moderator' sau 'administrator'."
 
 #: templates/user_profile/user_moderate.html:80
 msgid "'Approved' status means the same as regular user."
-msgstr ""
+msgstr "'Aprobat' este echivalent cu utilizator obișnuit"
 
 #: templates/user_profile/user_moderate.html:83
 msgid "Suspended users can only edit or delete their own posts."
-msgstr "Utilizatorii suspendați pot numai edita sau șterge propriile scrieri."
+msgstr "Utilizatorii suspendați pot numai edita sau șterge propriile postări."
 
 #: templates/user_profile/user_moderate.html:86
 msgid ""
 "Blocked users can only login and send feedback to the site administrators, "
 "their url and profile will also be hidden."
 msgstr ""
+"Utilizatorii blocați pot doar să se autentifice și să trimită feedback către administratori, "
+"deasemenea linkurile și profilurile lor vor fi ascunse."
 
 #: templates/user_profile/user_network.html:5
 #: templates/user_profile/user_tabs.html:18
 msgid "network"
-msgstr ""
+msgstr "rețea"
 
 #: templates/user_profile/user_network.html:10
 #, python-format
 msgid "Followed by %(count)s person"
 msgid_plural "Followed by %(count)s people"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Are %(count)s abonat"
+msgstr[1] "Are %(count)s abonați"
+msgstr[2] "Are %(count)s de abonați"
 
 #: templates/user_profile/user_network.html:20
 #, python-format
 msgid "Following %(count)s person"
 msgid_plural "Following %(count)s people"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Este abonat la %(count)s persoană"
+msgstr[1] "Este abonat la %(count)s persoane"
+msgstr[2] "Este abonat la %(count)s de persoane"
 
 #: templates/user_profile/user_network.html:31
 msgid ""
 "Your network is empty. Would you like to follow someone? - Just visit their "
 "profiles and click \"follow\""
 msgstr ""
+"Rețeaua ta este goală. Ai dori să te abonezi la cineva? - Vizitează profilul persoanei "
+"și dă click pe butonul \"Abonează-te\""
 
 #: templates/user_profile/user_network.html:33
 #, python-format
 msgid "%(username)s's network is empty"
-msgstr ""
+msgstr "rețeau lui %(username)s este goală"
 
 #: templates/user_profile/user_recent.html:5
 #: templates/user_profile/user_tabs.html:31
@@ -7552,7 +7572,7 @@ msgstr "activitate"
 #: templates/user_profile/user_recent.html:23
 #: templates/user_profile/user_recent.html:27
 msgid "source"
-msgstr ""
+msgstr "sursă"
 
 #: templates/user_profile/user_reputation.html:12
 msgid "Your karma change log."
@@ -7579,9 +7599,9 @@ msgstr[2] "<span class=\"count\">%(counter)s</span> de întrebări"
 #: templates/user_profile/user_stats.html:17
 msgid "Answer"
 msgid_plural "Answers"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "Răspuns"
+msgstr[1] "Răspunsuri"
+msgstr[2] "de Răspunsuri"
 
 #: templates/user_profile/user_stats.html:23
 #, python-format
@@ -7621,15 +7641,15 @@ msgstr "comentarii și răspunsuri pentru întrebările altora"
 
 #: templates/user_profile/user_tabs.html:16
 msgid "followers and followed users"
-msgstr ""
+msgstr "utilizatori la care ești abonat sau care sunt abonați"
 
 #: templates/user_profile/user_tabs.html:22
 msgid "Graph of user karma"
-msgstr ""
+msgstr "Graficul reputației utilizatorului"
 
 #: templates/user_profile/user_tabs.html:27
 msgid "questions that user is following"
-msgstr ""
+msgstr "întrebări la care utilizatorul este abonat"
 
 #: templates/user_profile/user_tabs.html:36 views/users.py:861
 msgid "user vote record"
@@ -7664,11 +7684,11 @@ msgstr[2] "răspunsul a fost comentat de %(comment_count)s de ori"
 #: templates/widgets/answer_edit_tips.html:3
 #: templates/widgets/question_edit_tips.html:3
 msgid "Tips"
-msgstr ""
+msgstr "Sfaturi"
 
 #: templates/widgets/answer_edit_tips.html:6
 msgid "give an answer interesting to this community"
-msgstr ""
+msgstr "oferă un răspuns interesant pentru această comunitate"
 
 #: templates/widgets/answer_edit_tips.html:9
 msgid "try to give an answer, rather than engage into a discussion"
@@ -7676,19 +7696,19 @@ msgstr "încercați să oferiți un răspuns, nu să vă angajați într-o discu
 
 #: templates/widgets/ask_button.html:9
 msgid "Ask the Group"
-msgstr ""
+msgstr "Întreabă grupul"
 
 #: templates/widgets/ask_form.html:22 templates/widgets/ask_form.html.py:24
 msgid "Add details (optional)"
-msgstr ""
+msgstr "Adaugă detalii (opțional)"
 
 #: templates/widgets/ask_form.html:26
 msgid "Add details"
-msgstr ""
+msgstr "Adaugă detalii"
 
 #: templates/widgets/ask_form.html:59
 msgid "Select language"
-msgstr ""
+msgstr "Selectează limba"
 
 #: templates/widgets/contributors.html:3
 msgid "Contributors"
@@ -7696,11 +7716,11 @@ msgstr "Contribuitori"
 
 #: templates/widgets/edit_post.html:33
 msgid ", one of these is required"
-msgstr ""
+msgstr ", unul dintre acestea este obligatoriu"
 
 #: templates/widgets/edit_post.html:42 templates/widgets/edit_post.html:47
 msgid "tags:"
-msgstr ""
+msgstr "etichete:"
 
 #: templates/widgets/edit_post.html:43
 msgid "(required)"
@@ -7715,11 +7735,13 @@ msgid ""
 "To post on behalf of someone else, enter user name <strong>and</strong> "
 "email below."
 msgstr ""
+"Pentru a posta în locul altcuiva, introdu numele de utilizator <strong>și</strong> "
+"emailul mai jos."
 
 #: templates/widgets/footer.html:33
 #, python-format
 msgid "Content on this site is licensed under a %(license)s"
-msgstr ""
+msgstr "Conținutul acestui site are următoarea licență"
 
 #: templates/widgets/footer.html:38
 msgid "about"
@@ -7727,7 +7749,7 @@ msgstr "despre"
 
 #: templates/widgets/footer.html:40 templates/widgets/user_navigation.html:26
 msgid "help"
-msgstr ""
+msgstr "ajutor"
 
 #: templates/widgets/footer.html:42
 msgid "privacy policy"
@@ -7739,78 +7761,81 @@ msgstr "oferă o sugestie"
 
 #: templates/widgets/group_info.html:3
 msgid "Group info"
-msgstr ""
+msgstr "Informații despre grup"
 
 #: templates/widgets/group_info.html:26
 msgid "edit description"
-msgstr ""
+msgstr "modifică excepția"
 
 #: templates/widgets/group_info.html:30
 msgid "change logo"
-msgstr ""
+msgstr "schimbă logo"
 
 #: templates/widgets/group_info.html:32
 msgid "delete logo"
-msgstr ""
+msgstr "șterge logo"
 
 #: templates/widgets/group_info.html:36
 msgid "add logo"
-msgstr ""
+msgstr "adaugă logo"
 
 #: templates/widgets/group_info.html:46
 msgid "moderate emailed questions"
-msgstr ""
+msgstr "moderează întrebările trimise prin email"
 
 #: templates/widgets/group_info.html:58
 msgid "show only selected answers to enquirers"
-msgstr ""
+msgstr "arată solicitanților doar răspunsurile selectate"
 
 #: templates/widgets/group_info.html:63
 msgid "How users join this group?"
-msgstr ""
+msgstr "Cum se pot alătura utilizatorii acestui grup?"
 
 #: templates/widgets/group_info.html:87
 msgid "Can moderate site"
-msgstr ""
+msgstr "Poate modera site-ul"
 
 #: templates/widgets/group_info.html:97
 msgid "Allow only read access"
-msgstr ""
+msgstr "Permite doar accesul pentru citire"
 
 #: templates/widgets/group_info.html:102
 msgid "list of email addresses of pre-approved users"
-msgstr ""
+msgstr "lista de adrese de email a utilizatorilor pre-aprobați"
 
 #: templates/widgets/group_info.html:107
 msgid "List of preapproved email addresses"
-msgstr ""
+msgstr "Afișează lista de adrese de email a utilizatorilor pre-aprobați"
 
 #: templates/widgets/group_info.html:108
 msgid ""
 "Users with these email adderesses will be added to the group automatically."
 msgstr ""
+"Utilizatorii cu aceste adrese de email vor fi adăugați la grup în mod automat."
 
 #: templates/widgets/group_info.html:109
 msgid "edit preapproved emails"
-msgstr ""
+msgstr "modifică emailurile preaprobate"
 
 #: templates/widgets/group_info.html:113
 msgid "list of preapproved email address domain names"
-msgstr ""
+msgstr "lista cu domeniile de email preaprobate"
 
 #: templates/widgets/group_info.html:118
 msgid "List of preapproved email domain names"
-msgstr ""
+msgstr "Lista cu domeniile de email preaprobate"
 
 #: templates/widgets/group_info.html:119
 msgid ""
 "Users whose email adderesses belong to these domains will be added to the "
 "group automatically."
 msgstr ""
+"Utilizatorii a căror adresă de email aparține acestor domenii vor fi "
+"adăugați la grup automat."
 
 #: templates/widgets/group_info.html:120
 msgid "edit preapproved email domains"
-msgstr ""
+msgstr "modifica domeniile de email preaprobate"
 
 #: templates/widgets/logo.html:3
 msgid "back to home page"
@@ -7823,7 +7848,7 @@ msgstr "siglă %(site)s"
 
 #: templates/widgets/markdown_help.html:2
 msgid "Markdown basics"
-msgstr ""
+msgstr "Câteva cuvinte despre Markdown"
 
 #: templates/widgets/markdown_help.html:6
 msgid "*italic*"
@@ -7864,7 +7889,7 @@ msgstr "află mai multe despre Markdown"
 
 #: templates/widgets/meta_nav.html:12
 msgid "people & groups"
-msgstr ""
+msgstr "persoane și grupuri"
 
 #: templates/widgets/meta_nav.html:20
 msgid "users"
@@ -7876,7 +7901,7 @@ msgstr "insigne"
 
 #: templates/widgets/question_edit_tips.html:5
 msgid "ask a question interesting to this community"
-msgstr ""
+msgstr "pune o întrebare interesantă pentru această comunitate"
 
 #: templates/widgets/question_summary.html:12
 msgid "view"
@@ -7901,7 +7926,7 @@ msgstr[2] "de voturi"
 
 #: templates/widgets/scope_nav.html:17
 msgid "ALL"
-msgstr ""
+msgstr "TOATE"
 
 #: templates/widgets/scope_nav.html:22
 msgid "see unanswered questions"
@@ -7909,15 +7934,15 @@ msgstr "vezi întrebările fără răspuns"
 
 #: templates/widgets/scope_nav.html:22
 msgid "UNANSWERED"
-msgstr ""
+msgstr "FĂRĂ RĂSPUNS"
 
 #: templates/widgets/scope_nav.html:27
 msgid "see your followed questions"
-msgstr ""
+msgstr "vezi întrebările la care ești abonat"
 
 #: templates/widgets/scope_nav.html:27
 msgid "FOLLOWED"
-msgstr ""
+msgstr "URMĂRIT"
 
 #: templates/widgets/scope_nav.html:30
 msgid "Please ask your question here"
@@ -7933,40 +7958,42 @@ msgstr "Etichete ignorate"
 
 #: templates/widgets/tag_selector.html:40
 msgid "Subscribed tags"
-msgstr ""
+msgstr "Etichete la care ești abonat"
 
 #: templates/widgets/tag_selector.html:59
 msgid "Show only questions from"
-msgstr ""
+msgstr "Arată întrebări doar de la"
 
 #: templates/widgets/tag_selector.html:70
 msgid "Send me email alerts for"
-msgstr ""
+msgstr "Trimite-mi alerte pe email pentru"
 
 #: templates/widgets/tag_selector.html:86
 msgid "Change frequency of emails"
-msgstr ""
+msgstr "Schimbă frecvența emailurilor"
 
 #: templates/widgets/three_column_category_selector.html:4
 msgid ""
 "Categorize your question using this tag selector or entering text in tag "
 "box."
 msgstr ""
+"Adaugă întrebarea ta într-o categorie utilizând selectorul de etichete sau introducând text în"
+"câmpul de etichetă."
 
 #: templates/widgets/three_column_category_selector.html:7
 #: templates/widgets/three_column_category_selector.html:10
 msgid "(done editing)"
-msgstr ""
+msgstr "(termină modificarea)"
 
 #: templates/widgets/three_column_category_selector.html:8
 #: templates/widgets/three_column_category_selector.html:9
 #: templates/widgets/three_column_category_selector.html:11
 msgid "(edit categories)"
-msgstr ""
+msgstr "(modifică categoriile)"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:3
 msgid "read only access"
-msgstr ""
+msgstr "acces doar la citire"
 
 #: templates/widgets/user_long_score_and_badge_summary.html:10
 msgid "karma:"

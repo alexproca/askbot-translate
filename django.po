@@ -8127,7 +8127,7 @@ msgstr "această adresă de email este deja folosită de un alt utilizator, folo
 
 #: utils/forms.py:227
 msgid "this email address is not authorized"
-msgstr ""
+msgstr "această adresă de email nu este autorizată"
 
 #: utils/forms.py:265
 msgid "password is required"
@@ -8135,7 +8135,7 @@ msgstr "parola este obligatorie"
 
 #: utils/forms.py:268
 msgid "Password <i>(please retype)</i>"
-msgstr ""
+msgstr "Parolă <i>(te rugăm să o reintroduci)</i>"
 
 #: utils/forms.py:269
 msgid "please, retype your password"
@@ -8183,7 +8183,7 @@ msgstr "Ați șters cu succes avatarele cerute."
 
 #: views/commands.py:123
 msgid "your post was not accepted"
-msgstr ""
+msgstr "postarea ta nu a fost acceptată"
 
 #: views/commands.py:136
 msgid "Sorry, but anonymous users cannot access the inbox"
@@ -8191,7 +8191,7 @@ msgstr "Ne pare rău dar utilizatorii anonimi nu pot accesa inboxul"
 
 #: views/commands.py:165
 msgid "Sorry, anonymous users cannot vote"
-msgstr ""
+msgstr "Ne pare rău, utilizatorii anonimi nu pot vota"
 
 #: views/commands.py:182
 msgid "Sorry you ran out of votes for today"
@@ -8216,6 +8216,8 @@ msgid ""
 "Your subscription is saved, but email address %(email)s needs to be "
 "validated, please see <a href=\"%(details_url)s\">more details here</a>"
 msgstr ""
+"Abonările tale sunt salvate, dar adresa de email %(email)s trebuie să fie "
+"validată <a href=\"%(details_url)s\">mai multe detalii aici</a>"
 
 #: views/commands.py:405
 msgid "email update frequency has been set to daily"
@@ -8223,7 +8225,7 @@ msgstr "frecvența de actualizare a emailurilor a fost definită drept zilnic"
 
 #: views/commands.py:628
 msgid "Sorry, could not delete tag"
-msgstr ""
+msgstr "Ne pare rău dar nu putem șterge eticheta"
 
 #: views/commands.py:701
 #, python-format
@@ -8237,24 +8239,24 @@ msgstr "Vă rugăm să vă autentificați pentru a vă abona la: %(tags)s"
 
 #: views/commands.py:729
 msgid "Create"
-msgstr ""
+msgstr "Creează"
 
 #: views/commands.py:959
 msgid "Please sign in to vote"
-msgstr ""
+msgstr "Te rugăm autentifică-te pentru a vota"
 
 #: views/commands.py:980
 msgid "Please sign in to delete/restore posts"
-msgstr ""
+msgstr "Te rugăm să te autentifici pentru a șterge sau recupera postări"
 
 #: views/commands.py:1042
 #, python-format
 msgid "Group %(name)s does not exist"
-msgstr ""
+msgstr "Grupul %(name)s nu există"
 
 #: views/commands.py:1408 views/commands.py:1441
 msgid "Sorry, looks like sharing request was invalid"
-msgstr ""
+msgstr "Ne pare rău, se pare că cererea de publicare a fost respinsă"
 
 #: views/commands.py:1464
 #, python-format
@@ -8307,7 +8309,8 @@ msgstr "Taguri sugerate"
 msgid ""
 "Please go to <a href=\"%s\">\"settings->URLs, keywords and greetings\"</a> "
 "and set the base url for your site to function properly"
-msgstr "Te rog să accesezi <a href=\"%s\">\"setări->adrese URL, cuvinte cheie și forme de salut\"</a> "
+msgstr ""
+"Te rog să accesezi <a href=\"%s\">\"setări->adrese URL, cuvinte cheie și forme de salut\"</a> "
 "și să setezi adresa URL de bază a site-ului pentru ca acesta să funcționeze corect"
 
 #: views/readers.py:421
@@ -8446,7 +8449,8 @@ msgstr "Postarea nu a fost găsită"
 msgid ""
 "Sorry, you appear to be logged out and cannot post comments. Please <a "
 "href=\"%(sign_in_url)s\">sign in</a>."
-msgstr "Ne pare rău dar nu sunteți autentificat și nu puteți adăuga comentarii. "
+msgstr ""
+"Ne pare rău dar nu sunteți autentificat și nu puteți adăuga comentarii. "
 "Vă rugăm să vă <a href=\"%(sign_in_url)s\">autentificați</a>."
 
 #: views/writers.py:749

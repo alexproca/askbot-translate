@@ -1751,7 +1751,7 @@ msgstr ""
 
 #: conf/minimum_reputation.py:67
 msgid "Flag offensive"
-msgstr "Marchează ofensiv"
+msgstr "Marchează ofensator"
 
 #: conf/minimum_reputation.py:88
 msgid "Delete comments posted by others"
@@ -3806,7 +3806,7 @@ msgstr "Ai marcat deja această întrebare și nu o poți marca de mai multe ori
 msgid ""
 "Sorry, since your account is blocked you cannot flag posts as offensive"
 msgstr ""
-"Ne pare rău, contul tău este blocat și nu poți marca postări ca ofensive"
+"Ne pare rău, contul tău este blocat și nu poți marca postări ca ofensatoare"
 
 #: models/__init__.py:1142
 #, python-format
@@ -3814,7 +3814,7 @@ msgid ""
 "Sorry, to flag posts as offensive a minimum reputation of %(min_rep)s is "
 "required"
 msgstr ""
-"Ne pare rău, pentru a putea marca postări ca ofensive este necesară "
+"Ne pare rău, pentru a putea marca postări ca ofensatoare este necesară "
 "o reputatie de minim %(min_rep)s"
 
 #: models/__init__.py:1163
@@ -3824,7 +3824,7 @@ msgid ""
 "offensive flags per day."
 msgstr ""
 "Ne pare rău, ai epuizat numarul maxim %(max_flags_per_day)s de marcări "
-"ofensive pe zi"
+"ofensatoare pe zi"
 
 #: models/__init__.py:1175
 msgid "cannot remove non-existing flag"
@@ -4249,7 +4249,7 @@ msgstr "Patrula comunitară"
 
 #: models/badges.py:551
 msgid "First flagged post"
-msgstr "Primul mesaj marcat ca ofensiv"
+msgstr "Primul mesaj marcat ca ofensator"
 
 #: models/badges.py:563
 msgid "Cleanup"
@@ -6722,48 +6722,49 @@ msgid ""
 "enable javascript in your browser, <a href=\"%(noscript_url)s\">here is "
 "how</a>"
 msgstr ""
-"Please note: %(app_name)s requires javascript to work properly, please "
-"enable javascript in your browser, <a href=\"%(noscript_url)s\">here is "
-"how</a>"
+"Te rugăm să ții cont că %(app_name)s are nevoie de javascript pentru a funcționa normal, te rugăm "
+"activează javascript în browserul tău, <a href=\"%(noscript_url)s\">aici găsești instrucțiuni "
+"cum să faci</a>"
 
 #: templates/meta/editor_data.html:5
 #, python-format
 msgid "each tag must be shorter that %(max_chars)s character"
 msgid_plural "each tag must be shorter than %(max_chars)s characters"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "fiecare etichetă trebuie să fie mai scurtă decât %(max_chars)s caracter"
+msgstr[1] "fiecare etichetă trebuie să fie mai scurtă decât %(max_chars)s caractere"
+msgstr[2] "fiecare etichetă trebuie să fie mai scurtă decât %(max_chars)s de caractere"
 
 #: templates/meta/editor_data.html:7
 #, python-format
 msgid "please use %(tag_count)s tag"
 msgid_plural "please use %(tag_count)s tags or less"
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
+msgstr[0] "te rugăm să folosești %(tag_count)s etichetă sau niciuna"
+msgstr[1] "te rugăm să folosești %(tag_count)s etichete sau mai puține"
+msgstr[2] "te rugăm să folosești %(tag_count)s de etichete sau mai puține"
 
 #: templates/meta/editor_data.html:8
 #, python-format
 msgid ""
 "please use up to %(tag_count)s tags, less than %(max_chars)s characters each"
 msgstr ""
+"te rugăm să folosești până la %(tag_count)s etichete, care să aibă maxim %(max_chars)s caractere fiecare"
 
 #: templates/question/answer_card.html:21
 msgid "This response is published"
-msgstr ""
+msgstr "Acest răspuns este publicat"
 
 #: templates/question/answer_controls.html:2
 msgid "swap with question"
-msgstr ""
+msgstr "schimbă cu întrebare"
 
 #: templates/question/answer_controls.html:11
 msgid "remove offensive flag"
-msgstr ""
+msgstr "elimină marcajul ofensator"
 
 #: templates/question/answer_controls.html:13
 #: templates/question/question_controls.html:12
 msgid "remove flag"
-msgstr ""
+msgstr "elimină marcajul"
 
 #: templates/question/answer_controls.html:18
 #: templates/question/answer_controls.html:26
@@ -6772,14 +6773,15 @@ msgstr ""
 #: templates/question/question_controls.html:23
 msgid ""
 "report as offensive (i.e containing spam, advertising, malicious text, etc.)"
-msgstr "raportează ca ofensatoare (de ex. conține spam, reclame, texte rău-voitoare, etc.)"
+msgstr ""
+"raportează ca ofensatoare (de ex. conține spam, reclame, texte rău-voitoare, etc.)"
 
 #: templates/question/answer_controls.html:20
 #: templates/question/answer_controls.html:28
 #: templates/question/question_controls.html:18
 #: templates/question/question_controls.html:25
 msgid "flag offensive"
-msgstr "marchează ofensiv"
+msgstr "marchează ofensator"
 
 #: templates/question/answer_controls.html:33
 #: templates/question/question_controls.html:36
@@ -6788,11 +6790,11 @@ msgstr "recuperează"
 
 #: templates/question/answer_controls.html:43
 msgid "unpublish"
-msgstr ""
+msgstr "anulează publicarea"
 
 #: templates/question/answer_controls.html:48
 msgid "publish"
-msgstr ""
+msgstr "publică"
 
 #: templates/question/answer_controls.html:54
 msgid "permanent link"
@@ -6805,15 +6807,15 @@ msgstr "legătură"
 
 #: templates/question/answer_controls.html:58
 msgid "more"
-msgstr ""
+msgstr "mai mult"
 
 #: templates/question/answer_controls.html:71
 msgid "repost as a question comment"
-msgstr ""
+msgstr "repostează ca un comentariu la întrebare"
 
 #: templates/question/answer_controls.html:85
 msgid "repost as a comment under the older answer"
-msgstr ""
+msgstr "repostează ca un comnetariu sub un răspuns mai vechi"
 
 #: templates/question/answer_tab_bar.html:3
 #, python-format
@@ -6826,12 +6828,21 @@ msgid_plural ""
 "            %(counter)s Answers\n"
 "        "
 msgstr[0] ""
+"\n"
+"            %(counter)s Răspuns\n"
+"        "
 msgstr[1] ""
+"\n"
+"            %(counter)s Răspunsuri\n"
+"        "
 msgstr[2] ""
+"\n"
+"            %(counter)s de Răspunsuri\n"
+"        "
 
 #: templates/question/answer_tab_bar.html:11
 msgid "Sort by »"
-msgstr ""
+msgstr "Sortează după »"
 
 #: templates/question/answer_tab_bar.html:14
 msgid "oldest answers will be shown first"
@@ -6852,7 +6863,7 @@ msgstr "acest răspuns a fost ales drept corect"
 
 #: templates/question/answer_vote_buttons.html:10
 msgid "mark this answer as correct (click again to undo)"
-msgstr ""
+msgstr "marchează acest răspuns ca fiind corect (click încă odată pentru anulare)"
 
 #: templates/question/closed_question_info.html:2
 #, python-format
@@ -6860,6 +6871,8 @@ msgid ""
 "The question has been closed for the following reason "
 "<b>\"%(close_reason)s\"</b> <i>by"
 msgstr ""
+"Înrebarea a fost închisă pentru că "
+"<b>\"%(close_reason)s\"</b> <i>de către"
 
 #: templates/question/closed_question_info.html:4
 #, python-format
@@ -6868,15 +6881,15 @@ msgstr "data închiderii %(closed_at)s"
 
 #: templates/question/content.html:33
 msgid "Edit Your Previous Answer"
-msgstr ""
+msgstr "Modifică Răspunsul tău precedent"
 
 #: templates/question/content.html:34
 msgid "(only one answer per user is allowed)"
-msgstr ""
+msgstr "(doar un mesaj per utilizator este permis)"
 
 #: templates/question/new_answer_form.html:12
 msgid "Login/Signup to Answer"
-msgstr ""
+msgstr "Autentifică-te sau Înregistrează-te pentru a răspunde"
 
 #: templates/question/new_answer_form.html:20
 msgid "Your answer"
@@ -6894,6 +6907,12 @@ msgid ""
 " answer</strong>, for discussions, <strong>please use comments</strong> and "
 "<strong>please do remember to vote</strong> (after you log in)!"
 msgstr ""
+"<span class='strong big'>Te rugăm începe să răspunzi anonim</span>"
+" - răspunsul tău va fi salvat in sesiunea curentă si va fi publicat după "
+" ce te autentifici sau creezi un cont nou. Te rugăm încearcă să dai un "
+"<strong>răspuns pertinent <strong>, pentru dicuții, <strong>te rugăm să "
+"folosești comentariile</strong> și <strong>te rugăm să îți amintești să "
+"votezi</strong> (după ce te autentifici)!"
 
 #: templates/question/new_answer_form.html:32
 msgid ""
@@ -6904,6 +6923,11 @@ msgid ""
 "forget to vote :)</strong> for the answers that you liked (or perhaps did "
 "not like)!"
 msgstr ""
+"<span class='big strong'>Ești binevenit să răspunzi la propria întrebare</span>,"
+" dar te rugăm asigură-te că dai un <strong>răspuns pertinent</strong>. Ține minte "
+"că poți oricând să <strong>îți revizuiești întrebarea originală</strong>. Te rugăm "
+"<strong>utilizează comentarii pentru discuții</strong>  și <strong>nu uita "
+"să votezi :)</strong> răspunsurile care ți-au plăcut (sau poate nu ți-au plăcut)! "
 
 #: templates/question/new_answer_form.html:34
 msgid ""
@@ -6914,10 +6938,16 @@ msgid ""
 "please <strong>don't forget to vote</strong> - it really helps to select the"
 " best questions and answers!"
 msgstr ""
+"<span class='big strong'>Te rugăm să oferi un răspuns pertinent</span>. Dacă "
+"ai vrut să comentezi la întrebare sau la răspuns, utilizează "
+"<strong>comentariile</strong>. Te rugăm să ții minte că poți oricând <strong>să îți"
+" revizui răspunsurile</strong> - nu este nevoie să raspunzi la aceeași întrebare de două ori. Deasemenea, "
+" <strong>nu uita să votezi</strong> - ne ajută în mod real să selectăm"
+" cele mai bune întrebări și răspunsuri!"
 
 #: templates/question/new_answer_form.html:39
 msgid "Add answer"
-msgstr ""
+msgstr "Adaugă răspuns"
 
 #: templates/question/question_controls.html:5
 msgid "retag"
@@ -6933,27 +6963,27 @@ msgstr "închide"
 
 #: templates/question/sidebar.html:8
 msgid "Question tools"
-msgstr ""
+msgstr "Înstrumente pentru întrebări"
 
 #: templates/question/sidebar.html:11
 msgid "click to unfollow this question"
-msgstr ""
+msgstr "click pentru dezabonare de la această întrebare"
 
 #: templates/question/sidebar.html:12
 msgid "Following"
-msgstr ""
+msgstr "Este abonat"
 
 #: templates/question/sidebar.html:13
 msgid "Unfollow"
-msgstr ""
+msgstr "Dezabonare"
 
 #: templates/question/sidebar.html:17
 msgid "click to follow this question"
-msgstr ""
+msgstr "click pentru abonare le această întrebare"
 
 #: templates/question/sidebar.html:18
 msgid "Follow"
-msgstr ""
+msgstr "Abonează-te"
 
 #: templates/question/sidebar.html:25
 #, python-format
